@@ -25,9 +25,26 @@ I will be creating a very robust portfolio site that allows for easy updating wh
 ## Portfolio Sections
 
 1. Basic Info
-    1. Bio
+    1. Professional Bio - MDLP
+    2. Personal Bio - Tiercen82
 2. Journey
     1. Work History
     2. Life Events
 3. Skills
+    1. Professional Skills
+    2. Personal Skills
 4. Hobbies & Interests
+5. Blog
+6. Contact Me
+    1. Professional
+        1. LinkedIn
+        2. Facebook
+        3. Twitter (X)
+    2. Personal
+        1. Facebook
+        2. Instagram
+        3. Twitter (X)
+        4. Discord
+        5. Xbox
+        6. PSN
+        7. Steam
