@@ -13,7 +13,21 @@ Deploy your site to the web using GitHub Pages
 OPTIONAL: [Buy a custom domain name](https://www.codecademy.com/courses/make-a-website/lessons/setting-up-your-domain/) and have it point to your GitHub Pages website
 
 # Prerequisites:
-HTML/CSS
-JavaScript
-Git and GitHub
-Command line and file navigation
+- HTML/CSS
+- JavaScript
+- Git and GitHub
+- Command line and file navigation
+
+# My Plan
+
+I will be creating a very robust portfolio site that allows for easy updating when things change.  This will be accomplished by setting up most of the copy for this site inside a JSON file.  I envision this being extremely useful in sections for work history, life events, and hobbies or interests.
+
+## Portfolio Sections
+
+1. Basic Info
+a. Bio
+2. Journey
+a. Work History
+b. Life Events
+3. Skills
+4. Hobbies & Interests
