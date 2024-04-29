@@ -38,9 +38,14 @@ One of the objectives of this assignment is to use JavaScript to provide interac
 3. Skills
     1. Professional Skills
     2. Personal Skills
-4. Hobbies & Interests
-5. Blog
-6. Contact Me
+4. Portfolio Projects
+    1. Professional Projects
+    2. Personal Projects
+5. Hobbies & Interests
+6. Blog
+    1. Professional Blog
+    2. Personal Blog
+7. Contact Me
     1. Professional
         1. LinkedIn
         2. Facebook
@@ -53,7 +58,11 @@ One of the objectives of this assignment is to use JavaScript to provide interac
         5. Xbox
         6. PSN
         7. Steam
-7. Locations
+8. Locations
     1. Professional Locations
     2. Personal Locations
-8. Footer
+9. Footer
+
+# Documentation:
+
+1. Design Documentation
