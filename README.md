@@ -22,6 +22,8 @@ OPTIONAL: [Buy a custom domain name](https://www.codecademy.com/courses/make-a-w
 
 I will be creating a very robust portfolio site that allows for easy updating when things change.  This will be accomplished by setting up most of the copy for this site inside a JSON file.  I envision this being extremely useful in sections for work history, life events, and hobbies or interests.
 
+One of the objectives of this assignment is to use JavaScript to provide interactivity on the site from the user.  To do this I am going to prompt the user to select a theme for the site.  Professional or Personal. Selecting one will change the color and layout of the page as well as the information being displayed.  For instance: If you select professional you will see a very clean modern online resume detailing my current state and sharing work history and appropriate skills. If you select the personal theme you will see a heavily artistically styled site detailing my personal life sharing life events, hobbies, and current things I am working on.  Like building up my full stack development skill.
+
 ## Portfolio Sections
 
 1. Basic Info
@@ -51,3 +53,7 @@ I will be creating a very robust portfolio site that allows for easy updating wh
         5. Xbox
         6. PSN
         7. Steam
+7. Locations
+    1. Professional Locations
+    2. Personal Locations
+8. Footer
