@@ -27,6 +27,9 @@ I will be creating a very robust portfolio site that allows for easy updating wh
 1. Basic Info
     1. Professional Bio - MDLP
     2. Personal Bio - Tiercen82
+2. Goals
+    1. Professional Goals
+    2. Personal Goals
 2. Journey
     1. Work History
     2. Life Events
