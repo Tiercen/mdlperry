@@ -25,9 +25,9 @@ I will be creating a very robust portfolio site that allows for easy updating wh
 ## Portfolio Sections
 
 1. Basic Info
-a. Bio
+    a. Bio
 2. Journey
-a. Work History
-b. Life Events
+    a. Work History
+    b. Life Events
 3. Skills
 4. Hobbies & Interests
