@@ -1,0 +1,162 @@
+[
+    {
+        "event": "Tiercen82 Enters the Game of Life",
+        "year": "1982",
+        "month": "February",
+        "date": "1982-02-01",
+        "description": "On Monday February 1st, 1982, David Anthony Thomasson (Tiercen82) was born in Lynchburg, VA.",
+        "img": "./birth.png"
+    },
+    {
+        "event": "Moved from Lynchburg, Virginia to Queens, New York",
+        "year": "1982",
+        "month": "November",
+        "date": "1982-11-01",
+        "description": "In November of 1982 we moved from my place of birth.  It was a long trip north from Lynchburg, VA to Queens, NY.",
+        "img": "./va-ny.png"
+    },
+    {
+        "event": "Moved from Queens, New York to Houston, Texas",
+        "year": "1984",
+        "month": "October",
+        "date": "1984-10-01",
+        "description": "In October of 1984 we moved from Queens, NY to Houston, TX.  This is the birth place of my little sister.",
+        "img": "./ny-tx.png"
+    },
+    {
+        "event": "Adopted - Name Change",
+        "year": "1987",
+        "month": "June",
+        "date": "1987-06-16",
+        "description": "On Tuesday June 16th, 1987; David Anthony Thomasson became MichealDavid LaRue Perry.",
+        "img": "./name-change.png"
+    },
+    {
+        "event": "Moved from Houston, Texas to Mississippi",
+        "year": "1989",
+        "month": "June",
+        "date": "1989-06-01",
+        "description": "Our family moved to live with my Aunt and Uncle in Mississippi.  We were only there for a few months before moving to the next place.",
+        "img": "./tx-ms.png"
+    },
+    {
+        "event": "Moved from Mississippi to East Hartford, Connecticut",
+        "year": "1989",
+        "month": "September",
+        "date": "1989-09-08",
+        "description": "In the summer of 1989 we left Mississippi and headed north again.  This time East Hartford, CT.",
+        "img": "./ms-ct.png"
+    },
+    {
+        "event": "Moved from East Hartford, Connecticut to Van Nuys, California",
+        "year": "1996",
+        "month": "July",
+        "date": "1996-07-01",
+        "description": "In the summer of 1996 my Mom moved us from East Hartford, CT to Van Nuys, CA.  Welcome to high school! I started ninth grade at Canoga Park High School",
+        "img": "./ct-ca.png"
+    },
+    {
+        "event": "Graduated High School",
+        "year": "2001",
+        "month": "June",
+        "date": "2001-06-26",
+        "description": "I graduated Reseda Community Adult School.  Off to the Navy",
+        "img": "./graduation.png"
+    },
+    {
+        "event": "In the Navy Now!!!!",
+        "year": "2001",
+        "month": "December",
+        "date": "2001-12-17",
+        "description": "Well I was going to be an Army Ranger. That recruitment office was closed.  So I traded land for ocean, Anchors Away!!!",
+        "img": "./in-navy.png"
+    },
+    {
+        "event": "Moved from Van Nuys, California to Great Lakes, Illinois",
+        "year": "2001",
+        "month": "December",
+        "date": "2001-12-18",
+        "description": "I join the Navy.  Stationed in Recruit Naval Command",
+        "img": "./ca-il.png"
+    },
+    {
+        "event": "Out of the Navy!!!",
+        "year": "2002",
+        "month": "December",
+        "date": "2002-12-31",
+        "description": "The Navy does not like it when you ask questions.  General Separation.",
+        "img": "./out-navy.png"
+    },
+    {
+        "event": "Moved from Great Lakes, Illinois back to Van Nuys, California",
+        "year": "2001",
+        "month": "December",
+        "date": "2001-12-18",
+        "description": "Discharged from the Navy.  Headed back home to Van Nuys, CA",
+        "img": "./il-ca.png"
+    },
+    {
+        "event": "Moved from Van Nuys, California to Richmond, Virginia",
+        "year": "2002",
+        "month": "March",
+        "date": "2002-03-16",
+        "description": "I moved from California back to Virginia to live with my older sister.  It was time to start being an adult for real.",
+        "img": "./ca-va.png"
+    },
+    {
+        "event": "Moved from Richmond, Virginia to Plainfield, Indiana",
+        "year": "2009",
+        "month": "July",
+        "date": "2009-07-11",
+        "description": "In the summer of '09 I packed up all my stuff and moved from Richmond, VA to Plainfield, IN.  This was truly an adventure and set me on the path to meet the love of my life.",
+        "img": "./va-in.png"
+    },
+    {
+        "event": "Met my wife!!!!  I love you Scrappu!!!",
+        "year": "2012",
+        "month": "August",
+        "date": "2012-08-11",
+        "description": "On this day I had my first date with Scrappu at Casa Brava in Avon, IN.  This date went from Avon to Terre Haute and ended at my apartment.",
+        "img": "./met-scrappu.png"
+    },
+    {
+        "event": "Married Scrappu!!!!!",
+        "year": "2013",
+        "month": "July",
+        "date": "2013-07-23",
+        "description": "We were going to get married in September, but we couldn't wait...  So we went to Indy and eloped!!!  It is important to remember: \"Stay Calm\"",
+        "img": "./va-in.png"
+    },
+    {
+        "event": "Moved to Forever Home!!!  Paoli, Indiana",
+        "year": "2014",
+        "month": "July",
+        "date": "2014-07-22",
+        "description": "After Scrappu and I got married we decided to leave the city and head for the country.",
+        "img": "./in-in.png"
+    },
+    {
+        "event": "DooMan Enters the Game of Life",
+        "year": "2017",
+        "month": "February",
+        "date": "2017-02-23",
+        "description": "In the summer of '09 I packed up all my stuff and moved from Richmond, VA to Plainfield, IN.  This was truly an adventure and set me on the path to meet the love of my life.",
+        "img": "./dooman-birth.png"
+    },
+    {
+        "event": "COVID-19 \"The Pandemic\"",
+        "year": "2020",
+        "month": "February",
+        "date": "2020-02-11",
+        "description": "Late in the winter of 2019 we started hearing about a virus.  COVID-19 was a novel virus that came out China.  There are lots of different stories on how it came about.  Could have been a lab leak... we may never know.  This virus changed our lifestyle drastically.",
+        "img": "./dumpsterfire.png"
+    },
+    {
+        "event": "Scrappu and I Decided to Make Some Big Changes",
+        "year": "2023",
+        "month": "October",
+        "date": "2023-10-11",
+        "description": "In the fall of 2023 after the COVID-19 pandemic, Scrappu and I decided we really wanted to try and make all our dreams come true.  She started going to University at Purdue.  We are Boilermakers now!  With Scrappu starting school I decided to pick up some new skills too.  I started a full start developer program with CodeCademy.  This is where Tesseract-23 was born.",
+        "img": "./va-in.png"
+    }
+]
