@@ -15,7 +15,7 @@ fetch('./resources/data/work-history.json')
       workCard.innerHTML = `
         <h3>${work.position} - ${work.company}</h3>
         <span>${work.startDate} - ${work.endDate ? work.endDate : 'Present'}</span>
-        <p>${work.description}</p>
+        <p>${work.responsibilities}</p>
       `;
 
       workHistorySection.appendChild(workCard);
