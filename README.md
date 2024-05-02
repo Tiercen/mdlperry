@@ -63,6 +63,10 @@ One of the objectives of this assignment is to use JavaScript to provide interac
     2. Personal Locations
 9. Footer
 
+# Portfolio Site
+
+1. [MichealDavid L Perry Portfolio](index.html)
+
 # Documentation:
 
 1. [Design Documentation](./resources/documentation/design.md)
