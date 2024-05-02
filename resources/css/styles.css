@@ -14,8 +14,13 @@ body {
     flex-wrap: wrap;
     gap: 1rem;
   }
-  
+    
   .work-card {
+    display: grid;
+    grid-template-areas:
+      "logo title duration"
+      "description description description";  /* Defines named grid areas */
+    align-items: center;  /* Aligns elements vertically within the card (logo row) */
     background-color: #6c8787;
     padding: 1rem;
     border-radius: 5px;
@@ -29,15 +34,22 @@ body {
   }
   
   .work-card h3 {
+    grid-area: title;  /* Assigns element to the "title" area */
     font-size: 1.1rem;
+  }
+
+  .work-card p {
+    grid-area: description;  /* Assigns element to the "description" area */
   }
   
   .work-card span {
+    grid-area: duration;  /* Assigns element to the "logo" area */
     font-style: italic;
     color: azure;
   }
 
   .work-card img    {
+    grid-area: logo;  /* Assigns element to the "logo" area */
     width: 100px;
     height: auto;
   }
