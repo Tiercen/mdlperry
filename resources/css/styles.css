@@ -18,9 +18,10 @@ body {
   .work-card {
     display: grid;
     grid-template-areas:
-      "logo title duration"
-      "description description description";  /* Defines named grid areas */
+      "logo title title duration"
+      "logo description description description";  /* Defines named grid areas */
     align-items: center;  /* Aligns elements vertically within the card (logo row) */
+    justify-content: space-between;
     background-color: #6c8787;
     padding: 1rem;
     border-radius: 5px;
