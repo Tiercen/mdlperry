@@ -110,6 +110,14 @@
         "endDate": "2001-11-30",
         "responsibilities": "Be current on all Wireless promotions, do programming of phones, and handle wireless customer technical and billing issues. Handle a variety of customer care services on other Radio Shack Products. Ensure that the store was sales ready at all times. Learn to be a sales person.",
         "logo": "./resources/img/radioshack-logo.webp"
+      },
+      {
+        "company": "Owensboro Health Group",
+        "position": "Data Analyst II",
+        "startDate": "2020-03-27",
+        "endDate": "2023-04-17",
+        "responsibilities": "Maintain and Develop EPIC ETLs for Clarity and Caboodle.  Handle all third party data streams",
+        "logo": "./resources/img/omhs-logo.svg"
       }
   ]
   
