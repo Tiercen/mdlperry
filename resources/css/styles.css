@@ -1,5 +1,5 @@
 body {
-    font-family: sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
     padding: 2rem;
   }
@@ -20,6 +20,7 @@ body {
     grid-template-areas:
       "logo title title duration"
       "logo description description description";  /* Defines named grid areas */
+    gap: .75em;
     align-items: center;  /* Aligns elements vertically within the card (logo row) */
     justify-content: space-between;
     background-color: #6c8787;
@@ -50,8 +51,12 @@ body {
   }
 
   .work-card img    {
-    grid-area: logo;  /* Assigns element to the "logo" area */
     width: 100px;
     height: auto;
+  }
+
+  .workhist-logo    {
+    grid-area: logo;  /* Assigns element to the "logo" area */
+    background-color: beige;
   }
   

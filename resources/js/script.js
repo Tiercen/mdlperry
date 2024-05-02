@@ -25,7 +25,7 @@ fetch('./resources/data/work-history.json')
       const endYear = work.endDate ? new Date(work.endDate).getFullYear() : 'Present';
 
       workCard.innerHTML = `
-        <div>${logoHtml}</div><h3>${work.position} - ${work.company}</h3>
+        <div class="workhist-logo">${logoHtml}</div><h3>${work.position} - ${work.company}</h3>
         <span><h4>${startYear} to ${endYear}</h4></span>
         <p>${work.description}</p>  `;
 
