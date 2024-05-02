@@ -4,7 +4,7 @@
       "position": "Business Information Consultant",
       "startDate": "2017-01-01",
       "endDate": "2020-01-10",
-      "responsibilities": "Analyzing, reporting and developing recommendations on data and process related to Corporate Strategy and Enterprise Market Size & Share datasets.  Primary duties may include, but are not limited to: Creates and maintains databases to track strategy information/metrics and Anthem/Competitor membership across all segments and lines of business. Develop and analyze business databases/datasets. Create and publish periodic reports, makes necessary recommendations, and develop ad hoc reports as needed. Taking business issues and devising the best way to develop appropriate diagnostic and/or tracking data that will translate business requirements into usable decision support tools.  Data Prepossessing Automation; develop fully automated ETLs for raw source data to allow for end user report creation and online analytics.",
+      "description": "Analyzing, reporting and developing recommendations on data and process related to Corporate Strategy and Enterprise Market Size & Share datasets.  Primary duties may include, but are not limited to: Creates and maintains databases to track strategy information/metrics and Anthem/Competitor membership across all segments and lines of business. Develop and analyze business databases/datasets. Create and publish periodic reports, makes necessary recommendations, and develop ad hoc reports as needed. Taking business issues and devising the best way to develop appropriate diagnostic and/or tracking data that will translate business requirements into usable decision support tools.  Data Prepossessing Automation; develop fully automated ETLs for raw source data to allow for end user report creation and online analytics.",
       "logo": "./resources/img/anthem-logo.png"
     },
     {
@@ -12,7 +12,7 @@
         "position": "Process Engineer Sr",
         "startDate": "2014-05-01",
         "endDate": "2017-04-29",
-        "responsibilities": "Analyzing, reporting and developing recommendations on data and process related to multiple, varied business metrics. Primary duties may include, but are not limited to: Creates and maintains databases to track business performance. Analyzes data and summarizes performance using summary statistical procedures. Develop and analyze business performance reports and provide notations of performance deviations and anomalies. Create and publish periodic reports, makes necessary recommendations, and develop ad hoc reports as needed. Taking business issues and devising the best way to develop appropriate diagnostic and/or tracking data that will translate business requirements into usable decision support tools.  Process analytics; Deep diving into processes surrounding managing the Annual Planning, Execution Scorecard, Master Planning, and Building Block processes, specific focus on how those processes impact data surrounding enterprise initiative data. Financial Analytics; Monthly, Quarterly, and Annual executive reporting and analytics.",
+        "description": "Analyzing, reporting and developing recommendations on data and process related to multiple, varied business metrics. Primary duties may include, but are not limited to: Creates and maintains databases to track business performance. Analyzes data and summarizes performance using summary statistical procedures. Develop and analyze business performance reports and provide notations of performance deviations and anomalies. Create and publish periodic reports, makes necessary recommendations, and develop ad hoc reports as needed. Taking business issues and devising the best way to develop appropriate diagnostic and/or tracking data that will translate business requirements into usable decision support tools.  Process analytics; Deep diving into processes surrounding managing the Annual Planning, Execution Scorecard, Master Planning, and Building Block processes, specific focus on how those processes impact data surrounding enterprise initiative data. Financial Analytics; Monthly, Quarterly, and Annual executive reporting and analytics.",
         "logo": "./resources/img/anthem-logo.png"
       },
       {
@@ -20,7 +20,7 @@
         "position": "Business Information Analyst II",
         "startDate": "2009-08-01",
         "endDate": "2014-05-01",
-        "responsibilities": "Analyzing, reporting and developing recommendations on data and process related to multiple, varied business metrics. Primary duties may include, but are not limited to: Creates and maintains databases to track business performance. Analyzes data and summarizes performance using summary statistical procedures. Develop and analyze business performance reports and provide notations of performance deviations and anomalies. Create and publish periodic reports, makes necessary recommendations, and develop ad hoc reports as needed. Taking business issues and devising the best way to develop appropriate diagnostic and/or tracking data that will translate business requirements into usable decision support tools.  Process analytics; Deep diving into processes surrounding managing resource capacity management in the PlanView application, specific focus on how those processes impact resource capacity and utilization data.  Financial Analytics; Monthly executive reporting and analytics of financial health with in a eBusiness unit for enterprise level investment priorities.",
+        "description": "Analyzing, reporting and developing recommendations on data and process related to multiple, varied business metrics. Primary duties may include, but are not limited to: Creates and maintains databases to track business performance. Analyzes data and summarizes performance using summary statistical procedures. Develop and analyze business performance reports and provide notations of performance deviations and anomalies. Create and publish periodic reports, makes necessary recommendations, and develop ad hoc reports as needed. Taking business issues and devising the best way to develop appropriate diagnostic and/or tracking data that will translate business requirements into usable decision support tools.  Process analytics; Deep diving into processes surrounding managing resource capacity management in the PlanView application, specific focus on how those processes impact resource capacity and utilization data.  Financial Analytics; Monthly executive reporting and analytics of financial health with in a eBusiness unit for enterprise level investment priorities.",
         "logo": "./resources/img/wellpoint-logo.svg"
       },
       {
@@ -28,7 +28,7 @@
         "position": "Help Desk Analyst II",
         "startDate": "2006-07-01",
         "endDate": "2009-08-01",
-        "responsibilities": "Assist a user base of over 55,000 users with in an environment of over 300 applications; some of which included, network issues, Windows operating systems, Office software, printing, Mainframe issues, and custom applications.  Knowledge base management:  Creating new and maintaining current documentation for use one the tier 1 level.    Process management: Analyzing and creating processes to increase proficiencies and performance of an enterprise level help desk. Accomplishments:  Was a key resource used to integrate three external help desks into one enterprise help desk.  Assisted in the development of new process and play an intricate role in special projects and integrations. Played the role of “Security Liaison” for a team of 27. Assistant team lead for LiveChat support, and help desk team. Lead trainer on an enterprise help desk.  Designed and tested the Myprofile.com application for Domain security self help.",
+        "description": "Assist a user base of over 55,000 users with in an environment of over 300 applications; some of which included, network issues, Windows operating systems, Office software, printing, Mainframe issues, and custom applications. Knowledge base management: Creating new and maintaining current documentation for use one the tier 1 level. Process management: Analyzing and creating processes to increase proficiencies and performance of an enterprise level help desk. Accomplishments:  Was a key resource used to integrate three external help desks into one enterprise help desk. Assisted in the development of new process and play an intricate role in special projects and integrations. Played the role of “Security Liaison” for a team of 27. Assistant team lead for LiveChat support, and help desk team. Lead trainer on an enterprise help desk. Designed and tested the Myprofile.com application for Domain security self help.",
         "logo": "./resources/img/wellpoint-logo.svg"
       },
       {
@@ -36,7 +36,7 @@
         "position": "Network Operations Technician",
         "startDate": "2006-04-01",
         "endDate": "2006-07-31",
-        "responsibilities": "Manage System outages, Communicate to Business owners, Network and system monitoring, System Recovery, and RCA (Root Cause Analysis.  Worked with LAN/WAN Systems, Active Directory, Intel and Unix Servers, Oracle and SQL databases.",
+        "description": "Manage System outages, Communicate to Business owners, Network and system monitoring, System Recovery, and RCA (Root Cause Analysis. Worked with LAN/WAN Systems, Active Directory, Intel and Unix Servers, Oracle and SQL databases.",
         "logo": "./resources/img/wellpoint-logo.svg"
       },
       {
@@ -44,7 +44,7 @@
         "position": "Network Operations Technician",
         "startDate": "2006-03-01",
         "endDate": "2006-03-31",
-        "responsibilities": "Manage System outages, Communicate to Business owners, Network and system monitoring, System Recovery, and RCA (Root Cause Analysis.  Worked with LAN/WAN Systems, Active Directory, Intel and Unix Servers, Oracle and SQL databases.",
+        "description": "Manage System outages, Communicate to Business owners, Network and system monitoring, System Recovery, and RCA (Root Cause Analysis. Worked with LAN/WAN Systems, Active Directory, Intel and Unix Servers, Oracle and SQL databases.",
         "logo": "./resources/img/teksystems-logo.webp"
       },
       {
@@ -52,7 +52,7 @@
         "position": "Help Desk Analyst",
         "startDate": "2005-07-01",
         "endDate": "2006-03-31",
-        "responsibilities": "Assist a user base of over 55,000 users with network issues, Windows operating systems, Office software, printing, Mainframe issues, and custom applications. Accomplishments: Help develop new process and play a intricate role in special projects and integrations. Played the role of “Security Liaison” for a team of 27. Assistant team lead for LiveChat support, and help desk team.",
+        "description": "Assist a user base of over 55,000 users with network issues, Windows operating systems, Office software, printing, Mainframe issues, and custom applications. Accomplishments: Help develop new process and play a intricate role in special projects and integrations. Played the role of “Security Liaison” for a team of 27. Assistant team lead for LiveChat support, and help desk team.",
         "logo": "./resources/img/teksystems-logo.webp"
       },
       {
@@ -60,7 +60,7 @@
         "position": "Short Term Contracts",
         "startDate": "2005-03-01",
         "endDate": "2005-05-31",
-        "responsibilities": "Completed several road warrior contracts setting up networks, workstations, and telephones.",
+        "description": "Completed several road warrior contracts setting up networks, workstations, and telephones.",
         "logo": "./resources/img/teksystems-logo.webp"
       },
       {
@@ -68,7 +68,7 @@
         "position": "Information Technology Specialist",
         "startDate": "2004-05-01",
         "endDate": "2005-03-01",
-        "responsibilities": "Network Administrator: Design a network infrastructure. Build, upgrade and maintain a Microsoft Windows 2003 Server (file server, web server, print server, and login server), install and maintain Active Directory. Maintain over 40 computers: Clean of malicious programs, install and upgrade industry software, administer a file database of over 6000 files, and manage user profiles. Help Desk: Assist a user group of 50+ with network issues, Microsoft product trouble tickets, email troubleshooting, computer best practices training, internet troubleshooting, login issues, and print troubleshooting. Graphic Design: Design advertising collateral, images for television commercials, program manuals, logos, business cards, embroidery graphics, sign/window/banner graphics, software GUI, and web graphics. Web Design: Design individual personnel sites for customer use, a fully functional intranet site, and worked in collaboration for company internet site and online application. Software Development: Headed a team to design proprietary software called Tyro Management and Verum Trax. This included GUI design, user flow, project management, and debugging in VB.net.",
+        "description": "Network Administrator: Design a network infrastructure. Build, upgrade and maintain a Microsoft Windows 2003 Server (file server, web server, print server, and login server), install and maintain Active Directory. Maintain over 40 computers: Clean of malicious programs, install and upgrade industry software, administer a file database of over 6000 files, and manage user profiles. Help Desk: Assist a user group of 50+ with network issues, Microsoft product trouble tickets, email troubleshooting, computer best practices training, internet troubleshooting, login issues, and print troubleshooting. Graphic Design: Design advertising collateral, images for television commercials, program manuals, logos, business cards, embroidery graphics, sign/window/banner graphics, software GUI, and web graphics. Web Design: Design individual personnel sites for customer use, a fully functional intranet site, and worked in collaboration for company internet site and online application. Software Development: Headed a team to design proprietary software called Tyro Management and Verum Trax. This included GUI design, user flow, project management, and debugging in VB.net.",
         "logo": ""
       },
       {
@@ -76,7 +76,7 @@
         "position": "Sales Manager",
         "startDate": "2004-01-01",
         "endDate": "2004-04-30",
-        "responsibilities": "Performance management, directing sales, merchandising, people development, recruiting, customer care, scheduling, and information presentation. Meet sales goals, and development goals on a daily basis.",
+        "description": "Performance management, directing sales, merchandising, people development, recruiting, customer care, scheduling, and information presentation. Meet sales goals, and development goals on a daily basis.",
         "logo": "./resources/img/radioshack-logo.webp"
       },
       {
@@ -84,7 +84,7 @@
         "position": "Sales & Marketing / Assistant Web Designer",
         "startDate": "2003-08-01",
         "endDate": "2008-07-31",
-        "responsibilities": "Introduce new books to local retailers, handle all sales transaction in stores and the web, design and institute advertising, promote authors to: magazines, newspapers, radio stations.",
+        "description": "Introduce new books to local retailers, handle all sales transaction in stores and the web, design and institute advertising, promote authors to: magazines, newspapers, radio stations.",
         "logo": ""
       },
       {
@@ -92,7 +92,7 @@
         "position": "Assistant Sales Manager",
         "startDate": "2002-01-01",
         "endDate": "2004-01-01",
-        "responsibilities": "Be current on all Wireless promotions, do programming of phones, and handle wireless customer technical and billing issues. Handle customer retention for the store. Handle a variety of customer care services on other Radio Shack Products. Manage a 2-3 person team on a daily basis. Ensure that the store is sales ready at all times. Keep the store running on a daily basis.",
+        "description": "Be current on all Wireless promotions, do programming of phones, and handle wireless customer technical and billing issues. Handle customer retention for the store. Handle a variety of customer care services on other Radio Shack Products. Manage a 2-3 person team on a daily basis. Ensure that the store is sales ready at all times. Keep the store running on a daily basis.",
         "logo": "./resources/img/radioshack-logo.webp"
       },
       {
@@ -100,7 +100,7 @@
         "position": "E3 Nuclear Engineering Field",
         "startDate": "2001-12-01",
         "endDate": "2002-12-31",
-        "responsibilities": "Complete basic training; Medical Discharge (dd214 can be provided by request)",
+        "description": "Complete basic training; Medical Discharge (dd214 can be provided by request)",
         "logo": "./resources/img/navy-logo.svg"
       },
       {
@@ -108,7 +108,7 @@
         "position": "Sales Associate",
         "startDate": "2001-10-01",
         "endDate": "2001-11-30",
-        "responsibilities": "Be current on all Wireless promotions, do programming of phones, and handle wireless customer technical and billing issues. Handle a variety of customer care services on other Radio Shack Products. Ensure that the store was sales ready at all times. Learn to be a sales person.",
+        "description": "Be current on all Wireless promotions, do programming of phones, and handle wireless customer technical and billing issues. Handle a variety of customer care services on other Radio Shack Products. Ensure that the store was sales ready at all times. Learn to be a sales person.",
         "logo": "./resources/img/radioshack-logo.webp"
       },
       {
@@ -116,7 +116,7 @@
         "position": "Data Analyst II",
         "startDate": "2020-03-27",
         "endDate": "2023-04-17",
-        "responsibilities": "Maintain and Develop EPIC ETLs for Clarity and Caboodle.  Handle all third party data streams",
+        "description": "Maintain and Develop EPIC ETLs for Clarity and Caboodle.  Handle all third party data streams",
         "logo": "./resources/img/omhs-logo.svg"
       }
   ]

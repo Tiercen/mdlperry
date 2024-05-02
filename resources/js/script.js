@@ -24,7 +24,7 @@ fetch('./resources/data/work-history.json')
         ${logoHtml}
         <h3>${work.position} - ${work.company}</h3>
         <span>${work.startDate} - ${work.endDate ? work.endDate : 'Present'}</span>
-        <p>${work.responsibilities}</p>  `;
+        <p>${work.description}</p>  `;
 
       workHistorySection.appendChild(workCard);
     });
