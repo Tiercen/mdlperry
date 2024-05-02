@@ -36,4 +36,9 @@ body {
     font-style: italic;
     color: #888;
   }
+
+  .work-card img    {
+    width: 100px;
+    height: auto;
+  }
   
