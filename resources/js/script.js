@@ -20,10 +20,14 @@ fetch('./resources/data/work-history.json')
         logoHtml = `<img src="${work.logo}" alt="${work.company} Logo">`;
       }
 
+      // Extract year from startDate and endDate (handle cases with missing endDate)
+      const startYear = new Date(work.startDate).getFullYear();
+      const endYear = work.endDate ? new Date(work.endDate).getFullYear() : 'Present';
+
       workCard.innerHTML = `
         ${logoHtml}
         <h3>${work.position} - ${work.company}</h3>
-        <span>${work.startDate} - ${work.endDate ? work.endDate : 'Present'}</span>
+        <span><h4>${startYear} to ${endYear}</h4></span>
         <p>${work.description}</p>  `;
 
       workHistorySection.appendChild(workCard);
