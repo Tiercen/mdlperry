@@ -51,12 +51,11 @@ body {
   }
 
   .work-card img    {
-    width: 100px;
+    width: 125px;
     height: auto;
   }
 
   .workhist-logo    {
     grid-area: logo;  /* Assigns element to the "logo" area */
-    background-color: beige;
   }
   
