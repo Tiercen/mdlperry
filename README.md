@@ -65,4 +65,4 @@ One of the objectives of this assignment is to use JavaScript to provide interac
 
 # Documentation:
 
-1. Design Documentation
+1. [Design Documentation](./resources/documentation/design.md)
