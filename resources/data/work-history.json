@@ -77,7 +77,7 @@
         "startDate": "2004-01-01",
         "endDate": "2004-04-30",
         "description": "Performance management, directing sales, merchandising, people development, recruiting, customer care, scheduling, and information presentation. Meet sales goals, and development goals on a daily basis.",
-        "logo": "./resources/img/radioshack-logo.webp"
+        "logo": "./resources/img/radioshack-logo.png"
       },
       {
         "company": "Wicked Pages Press",
@@ -93,7 +93,7 @@
         "startDate": "2002-01-01",
         "endDate": "2004-01-01",
         "description": "Be current on all Wireless promotions, do programming of phones, and handle wireless customer technical and billing issues. Handle customer retention for the store. Handle a variety of customer care services on other Radio Shack Products. Manage a 2-3 person team on a daily basis. Ensure that the store is sales ready at all times. Keep the store running on a daily basis.",
-        "logo": "./resources/img/radioshack-logo.webp"
+        "logo": "./resources/img/radioshack-logo.png"
       },
       {
         "company": "United States Navy",
@@ -109,7 +109,7 @@
         "startDate": "2001-10-01",
         "endDate": "2001-11-30",
         "description": "Be current on all Wireless promotions, do programming of phones, and handle wireless customer technical and billing issues. Handle a variety of customer care services on other Radio Shack Products. Ensure that the store was sales ready at all times. Learn to be a sales person.",
-        "logo": "./resources/img/radioshack-logo.webp"
+        "logo": "./resources/img/radioshack-logo.png"
       },
       {
         "company": "Owensboro Health Group",
