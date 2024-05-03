@@ -10,8 +10,8 @@ body {
   }
 
   .bio-pic {
-    width: 100px;  /* Adjust width as needed */
-    height: 100px;  /* Adjust height as needed */
+    width: 200px;  /* Adjust width as needed */
+    height: 200px;  /* Adjust height as needed */
     object-fit: cover;  /* Ensures image fills the container and avoids cropping */
     border-radius: 0;  /* Remove any border radius for clip-path to work */
     clip-path: circle(50% at 50% 50%);  /* Defines the clip-path as a circle */
