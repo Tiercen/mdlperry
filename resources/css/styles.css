@@ -19,6 +19,7 @@ body {
   
   #work-history {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     gap: 1rem;
   }
@@ -46,7 +47,7 @@ body {
   
   .work-card h3 {
     grid-area: title;  /* Assigns element to the "title" area */
-    font-size: 1.1rem;
+    font-size: 1.75em;
   }
 
   .description {
@@ -56,6 +57,7 @@ body {
   .location {
     grid-area: location;  /* Assigns element to the "description" area */
     font-size: 1.5em;
+    height: 1.75em;
   }
   
   .work-card span {
