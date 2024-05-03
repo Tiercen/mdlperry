@@ -27,6 +27,7 @@ fetch('./resources/data/work-history.json')
       workCard.innerHTML = `
         <div class="workhist-logo">${logoHtml}</div><h3>${work.position} - ${work.company}</h3>
         <span><h4>${startYear} to ${endYear}</h4></span>
+        <p>${work.location}</p>
         <p>${work.description}</p>  `;
 
       workHistorySection.appendChild(workCard);
