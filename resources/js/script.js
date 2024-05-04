@@ -46,8 +46,13 @@ fetch('./resources/data/work-history.json')
       const toggleLink = workCard.querySelector('.description-toggle');
       toggleLink.addEventListener('click', (event) => {
         event.preventDefault();  // Prevent default link behavior (navigation)
+
+        // Toggle visibility based on current state
         fullDescription.style.display = fullDescription.style.display === 'none' ? 'block' : 'none';
-        toggleLink.textContent = fullDescription.style.display === 'none' ? 'Show More' : 'Show Less';
+        descriptionPreview.style.display = fullDescription.style.display === 'block' ? 'none' : 'block';
+
+        // Update link text based on visibility
+        toggleLink.textContent = fullDescription.style.display === 'none' ? 'Read More' : 'Show Less';
       });
 
       workHistorySection.appendChild(workCard);
