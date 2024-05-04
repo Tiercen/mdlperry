@@ -24,14 +24,33 @@ fetch('./resources/data/work-history.json')
       const startYear = new Date(work.startDate).getFullYear();
       const endYear = work.endDate ? new Date(work.endDate).getFullYear() : 'Present';
 
+      // Truncate description for preview (adjust max-height and number of lines as needed)
+      const maxLines = 3;  // Number of lines to show in preview
+      const descriptionPreview = work.description.split(/\r?\n|\r/).slice(0, maxLines).join('\n');
+
       workCard.innerHTML = `
-        <div class="workhist-logo">${logoHtml}</div><h3>${work.position} - ${work.company}</h3>
+        <div class="workhist-logo">${logoHtml}</div>
+        <h3>${work.position} - ${work.company}</h3>
         <span><h4>${startYear} to ${endYear}</h4></span>
         <p class="location">Location: ${work.location}</p>
-        <p class="description">${work.description}</p>  `;
+        <p class="description-preview">${descriptionPreview}...</p>
+        <a href="#" class="description-toggle">Read More</a>
+        <p class="description">${work.description}</p>
+      `;
+
+      // Initial state: Hide full description and show preview
+      const fullDescription = workCard.querySelector('.description');
+      fullDescription.style.display = 'none';
+
+      // Toggle link click event handler
+      const toggleLink = workCard.querySelector('.description-toggle');
+      toggleLink.addEventListener('click', (event) => {
+        event.preventDefault();  // Prevent default link behavior (navigation)
+        fullDescription.style.display = fullDescription.style.display === 'none' ? 'block' : 'none';
+        toggleLink.textContent = fullDescription.style.display === 'none' ? 'Show More' : 'Show Less';
+      });
 
       workHistorySection.appendChild(workCard);
     });
   })
   .catch(error => console.error(error));
-
