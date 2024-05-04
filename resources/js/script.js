@@ -25,7 +25,7 @@ fetch('./resources/data/work-history.json')
       const endYear = work.endDate ? new Date(work.endDate).getFullYear() : 'Present';
 
       // Truncate description for preview (adjust max-height and number of lines as needed)
-      const maxLines = 3;  // Number of lines to show in preview
+      const maxLines = 1;  // Number of lines to show in preview
       const descriptionPreview = work.description.split(/\r?\n|\r/).slice(0, maxLines).join('\n');
 
       workCard.innerHTML = `
@@ -34,7 +34,7 @@ fetch('./resources/data/work-history.json')
         <span><h4>${startYear} to ${endYear}</h4></span>
         <p class="location">Location: ${work.location}</p>
         <p class="description-preview">${descriptionPreview}...</p>
-        <a href="#" class="description-toggle">Read More</a>
+        <a href="#" class="description-toggle">Show More</a>
         <p class="description">${work.description}</p>
       `;
 
