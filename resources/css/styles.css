@@ -54,6 +54,10 @@ body {
     grid-area: description;  /* Assigns element to the "description" area */
   }
 
+  .description-preview{
+    grid-area: description;  /* Assigns element to the "description" area */
+  }
+
   .location {
     grid-area: location;  /* Assigns element to the "description" area */
     font-size: 1.5em;

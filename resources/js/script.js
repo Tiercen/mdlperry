@@ -52,7 +52,7 @@ fetch('./resources/data/work-history.json')
         descriptionPreview.style.display = fullDescription.style.display === 'block' ? 'none' : 'block';
 
         // Update link text based on visibility
-        toggleLink.textContent = fullDescription.style.display === 'none' ? 'Read More' : 'Show Less';
+        toggleLink.textContent = fullDescription.style.display === 'none' ? 'Show More' : 'Show Less';
       });
 
       workHistorySection.appendChild(workCard);
