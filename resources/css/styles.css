@@ -79,3 +79,16 @@ body {
     grid-area: logo;  /* Assigns element to the "logo" area */
   }
   
+  .interest-img {
+    width: 250px;
+    height: auto;
+  }
+  
+  .map {
+    width: 25rem;
+    height: 25rem;
+  }
+
+  .dark-mode {
+    display: none;
+  }
