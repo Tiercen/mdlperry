@@ -10,7 +10,8 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
     padding: 0.2rem 0.75rem;
-
+    
+    background: fixed;
     background-color: #f5f5f5; /*#f5f5f5;  Eggshell color */
     background-image: 
       repeating-linear-gradient(
