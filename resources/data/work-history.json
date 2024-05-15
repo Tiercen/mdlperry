@@ -1,138 +1,162 @@
 [
-    {
+  {
+    "company": "Anthem Inc",
+    "position": "Business Information Consultant",
+    "location": "Indianapolis, IN",
+    "startDate": "2017-01-01",
+    "endDate": "2020-01-10",
+    "description": "Developed and maintained complex data sets using relational database systems. Designed with conceptional, logical, and physical data models and executed enterprise ETLs. Deployed and enhanced periodic end-user reporting.",
+    "accomplishments": [
+      "Implemented business tool-driven data processing automation proof of concept, reducing data set development time by 75%.",
+      "Led team of IT professionals in deployment of enterprise ETLs, hardware infrastructure, and enterprise data models based off on proof of concept (PoC), creating true enterprise source of truth for strategical market data.",
+      "Deployed online Tableau server reporting portal to 1.5K+ users, making strategic data readily available and easier to use across enterprise.",
+      "Received internal “Values in Action” award twice for Medicaid EDNA & MS&S data integration, and MS&S Enterprise database and reporting portal deployment."
+      ],
+    "logo": "./resources/img/512-anthem-logo.png"
+  },
+  {
       "company": "Anthem Inc",
-      "position": "Business Information Consultant",
-      "location": "Indianapolis, IN",
-      "startDate": "2017-01-01",
-      "endDate": "2020-01-10",
-      "description": "Analyzing, reporting and developing recommendations on data and process related to Corporate Strategy and Enterprise Market Size & Share datasets.  Primary duties may include, but are not limited to: Creates and maintains databases to track strategy information/metrics and Anthem/Competitor membership across all segments and lines of business. Develop and analyze business databases/datasets. Create and publish periodic reports, makes necessary recommendations, and develop ad hoc reports as needed. Taking business issues and devising the best way to develop appropriate diagnostic and/or tracking data that will translate business requirements into usable decision support tools.  Data Prepossessing Automation; develop fully automated ETLs for raw source data to allow for end user report creation and online analytics.",
+      "position": "Process Engineer Sr",
+      "location": "Virtual",
+      "startDate": "2014-05-01",
+      "endDate": "2017-04-29",
+      "description": "Enhanced existing and developed new reporting matrix for key performance indicators (KPIs) to allow for process improvement and future improvement. Deployed new tools and dashboards to enable more agile organizational evolution and strategic planning.",
+      "accomplishments": [
+        "Designed and supported IT corporate planning data collection / reporting / analysis tools, reducing planning cycle times, improving data quality, and increasing data access. - Enabling better and more cohesive planning",
+        "Architected and supported IT master planning data collection and integration, improving cross-application development planning, and dependencies awareness.",
+        "Increased transparency into cost and return on investment (ROI) in application development through consistent and easy to use dashboards. - Received internal “Easy to Business With” award."
+        ],
       "logo": "./resources/img/512-anthem-logo.png"
     },
     {
-        "company": "Anthem Inc",
-        "position": "Process Engineer Sr",
-        "location": "Virtual",
-        "startDate": "2014-05-01",
-        "endDate": "2017-04-29",
-        "description": "Analyzing, reporting and developing recommendations on data and process related to multiple, varied business metrics. Primary duties may include, but are not limited to: Creates and maintains databases to track business performance. Analyzes data and summarizes performance using summary statistical procedures. Develop and analyze business performance reports and provide notations of performance deviations and anomalies. Create and publish periodic reports, makes necessary recommendations, and develop ad hoc reports as needed. Taking business issues and devising the best way to develop appropriate diagnostic and/or tracking data that will translate business requirements into usable decision support tools.  Process analytics; Deep diving into processes surrounding managing the Annual Planning, Execution Scorecard, Master Planning, and Building Block processes, specific focus on how those processes impact data surrounding enterprise initiative data. Financial Analytics; Monthly, Quarterly, and Annual executive reporting and analytics.",
-        "logo": "./resources/img/512-anthem-logo.png"
-      },
-      {
-        "company": "Wellpoint Inc / Anthem Inc",
-        "position": "Business Information Analyst II",
-        "location": "Virtual",
-        "startDate": "2009-08-01",
-        "endDate": "2014-05-01",
-        "description": "Analyzing, reporting and developing recommendations on data and process related to multiple, varied business metrics. Primary duties may include, but are not limited to: Creates and maintains databases to track business performance. Analyzes data and summarizes performance using summary statistical procedures. Develop and analyze business performance reports and provide notations of performance deviations and anomalies. Create and publish periodic reports, makes necessary recommendations, and develop ad hoc reports as needed. Taking business issues and devising the best way to develop appropriate diagnostic and/or tracking data that will translate business requirements into usable decision support tools.  Process analytics; Deep diving into processes surrounding managing resource capacity management in the PlanView application, specific focus on how those processes impact resource capacity and utilization data.  Financial Analytics; Monthly executive reporting and analytics of financial health with in a eBusiness unit for enterprise level investment priorities.",
-        "logo": "./resources/img/wellpoint-logo.svg"
-      },
-      {
-        "company": "Wellpoint Inc / Anthem Inc",
-        "position": "Help Desk Analyst II",
-        "location": "Richmond, VA",
-        "startDate": "2006-07-01",
-        "endDate": "2009-08-01",
-        "description": "Assist a user base of over 55,000 users with in an environment of over 300 applications; some of which included, network issues, Windows operating systems, Office software, printing, Mainframe issues, and custom applications. Knowledge base management: Creating new and maintaining current documentation for use one the tier 1 level. Process management: Analyzing and creating processes to increase proficiencies and performance of an enterprise level help desk. Accomplishments:  Was a key resource used to integrate three external help desks into one enterprise help desk. Assisted in the development of new process and play an intricate role in special projects and integrations. Played the role of “Security Liaison” for a team of 27. Assistant team lead for LiveChat support, and help desk team. Lead trainer on an enterprise help desk. Designed and tested the Myprofile.com application for Domain security self help.",
-        "logo": "./resources/img/wellpoint-logo.svg"
-      },
-      {
-        "company": "Wellpoint Inc / Anthem Inc",
-        "position": "Network Operations Technician",
-        "location": "Richmond, VA",
-        "startDate": "2006-04-01",
-        "endDate": "2006-07-31",
-        "description": "Manage System outages, Communicate to Business owners, Network and system monitoring, System Recovery, and RCA (Root Cause Analysis. Worked with LAN/WAN Systems, Active Directory, Intel and Unix Servers, Oracle and SQL databases.",
-        "logo": "./resources/img/wellpoint-logo.svg"
-      },
-      {
-        "company": "TekSystems - WellPoint, Inc",
-        "position": "Network Operations Technician",
-        "location": "Richmond, VA",
-        "startDate": "2006-03-01",
-        "endDate": "2006-03-31",
-        "description": "Manage System outages, Communicate to Business owners, Network and system monitoring, System Recovery, and RCA (Root Cause Analysis. Worked with LAN/WAN Systems, Active Directory, Intel and Unix Servers, Oracle and SQL databases.",
-        "logo": "./resources/img/teksystems-logo.webp"
-      },
-      {
-        "company": "TekSystems - WellPoint, Inc",
-        "position": "Help Desk Analyst",
-        "location": "Richmond, VA",
-        "startDate": "2005-07-01",
-        "endDate": "2006-03-31",
-        "description": "Assist a user base of over 55,000 users with network issues, Windows operating systems, Office software, printing, Mainframe issues, and custom applications. Accomplishments: Help develop new process and play a intricate role in special projects and integrations. Played the role of “Security Liaison” for a team of 27. Assistant team lead for LiveChat support, and help desk team.",
-        "logo": "./resources/img/teksystems-logo.webp"
-      },
-      {
-        "company": "TekSystems",
-        "position": "Short Term Contracts",
-        "location": "Richmond, VA",
-        "startDate": "2005-03-01",
-        "endDate": "2005-05-31",
-        "description": "Completed several road warrior contracts setting up networks, workstations, and telephones.",
-        "logo": "./resources/img/teksystems-logo.webp"
-      },
-      {
-        "company": "New Directions Mortgage Co., Inc",
-        "position": "Information Technology Specialist",
-        "location": "Richmond, VA",
-        "startDate": "2004-05-01",
-        "endDate": "2005-03-01",
-        "description": "Network Administrator: Design a network infrastructure. Build, upgrade and maintain a Microsoft Windows 2003 Server (file server, web server, print server, and login server), install and maintain Active Directory. Maintain over 40 computers: Clean of malicious programs, install and upgrade industry software, administer a file database of over 6000 files, and manage user profiles. Help Desk: Assist a user group of 50+ with network issues, Microsoft product trouble tickets, email troubleshooting, computer best practices training, internet troubleshooting, login issues, and print troubleshooting. Graphic Design: Design advertising collateral, images for television commercials, program manuals, logos, business cards, embroidery graphics, sign/window/banner graphics, software GUI, and web graphics. Web Design: Design individual personnel sites for customer use, a fully functional intranet site, and worked in collaboration for company internet site and online application. Software Development: Headed a team to design proprietary software called Tyro Management and Verum Trax. This included GUI design, user flow, project management, and debugging in VB.net.",
-        "logo": ""
-      },
-      {
-        "company": "RadioShack Corporation",
-        "position": "Sales Manager",
-        "location": "Richmond, VA",
-        "startDate": "2004-01-01",
-        "endDate": "2004-04-30",
-        "description": "Performance management, directing sales, merchandising, people development, recruiting, customer care, scheduling, and information presentation. Meet sales goals, and development goals on a daily basis.",
-        "logo": "./resources/img/radio-shack-1.svg"
-      },
-      {
-        "company": "Wicked Pages Press",
-        "position": "Sales & Marketing / Assistant Web Designer",
-        "location": "Richmond, VA",
-        "startDate": "2003-08-01",
-        "endDate": "2008-07-31",
-        "description": "Introduce new books to local retailers, handle all sales transaction in stores and the web, design and institute advertising, promote authors to: magazines, newspapers, radio stations.",
-        "logo": ""
-      },
-      {
-        "company": "RadioShack Corporation",
-        "position": "Assistant Sales Manager",
-        "location": "Richmond, VA",
-        "startDate": "2002-01-01",
-        "endDate": "2004-01-01",
-        "description": "Be current on all Wireless promotions, do programming of phones, and handle wireless customer technical and billing issues. Handle customer retention for the store. Handle a variety of customer care services on other Radio Shack Products. Manage a 2-3 person team on a daily basis. Ensure that the store is sales ready at all times. Keep the store running on a daily basis.",
-        "logo": "./resources/img/radio-shack-1.svg"
-      },
-      {
-        "company": "United States Navy",
-        "position": "E3 Nuclear Engineering Field",
-        "location": "Great Lakes, IL",
-        "startDate": "2001-12-01",
-        "endDate": "2002-12-31",
-        "description": "Complete basic training; Medical Discharge (dd214 can be provided by request)",
-        "logo": "./resources/img/navy-logo.svg"
-      },
-      {
-        "company": "RadioShack Corporation",
-        "position": "Sales Associate",
-        "location": "Van Nuys, CA",
-        "startDate": "2001-10-01",
-        "endDate": "2001-11-30",
-        "description": "Be current on all Wireless promotions, do programming of phones, and handle wireless customer technical and billing issues. Handle a variety of customer care services on other Radio Shack Products. Ensure that the store was sales ready at all times. Learn to be a sales person.",
-        "logo": "./resources/img/radio-shack-1.svg"
-      },
-      {
-        "company": "Owensboro Health Group",
-        "position": "Data Analyst II",
-        "location": "Virtual",
-        "startDate": "2020-03-27",
-        "endDate": "2023-04-17",
-        "description": "Developed and maintained the data infrastructure, building automated ETL processes to integrate data from diverse healthcare and vendor systems. Ensured efficient data access and utilization through server administration, user training, and relational database management. Additionally, I leverage data visualization tools and explore innovative solutions to enhance data integration capabilities.",
-        "logo": "./resources/img/omhs-logo.svg"
-      }
-  ]
-  
+      "company": "Wellpoint Inc / Anthem Inc",
+      "position": "Business Information Analyst II",
+      "location": "Virtual",
+      "startDate": "2009-08-01",
+      "endDate": "2014-05-01",
+      "description": "Delivered data model and reporting development for business group and project management performance. Prepared and gathered detailed business and technical requirements. Conducted deep-dive analysis of existing data to identify areas for process improvement.",
+      "accomplishments": [
+        "Engineered resource capacity management dashboards / reports, reducing number of unfilled requirements by 55% with continuing downward trend and increasing data access across enterprise, providing insight into resource and knowledge gaps. - Furnished usable data to executive leadership, enabling better hiring decisions."
+        ],
+      "logo": "./resources/img/wellpoint-logo.svg"
+    },
+    {
+      "company": "Wellpoint Inc / Anthem Inc",
+      "position": "Help Desk Analyst I, II, III",
+      "location": "Richmond, VA",
+      "startDate": "2006-07-01",
+      "endDate": "2009-08-01",
+      "description": "Supported internal resources across large array of applications, with varying complexity. Developed procedures and training materials for enterprise service desk.",
+      "accomplishments": [
+        "Boosted first call resolution by 23% by developing new troubleshooting techniques and tools to identify common and more advanced issues with simple solutions. - Awarded special teams lead as first call resolutions mentor",
+        "Integrated 3 independent internal into one enterprise help desk, reducing communication lag, balancing volume management, and enabling new contact methods.",
+        "Established new role to be security liaison for help desk, decreasing incorrect requests and failed audits.",
+        "Designed and tested self-service password reset tools, lowering daily calls significantly."
+        ],
+      "logo": "./resources/img/wellpoint-logo.svg"
+    },
+    {
+      "company": "Wellpoint Inc / Anthem Inc",
+      "position": "Network Operations Technician",
+      "location": "Richmond, VA",
+      "startDate": "2006-04-01",
+      "endDate": "2006-07-31",
+      "description": "Manage System outages, Communicate to Business owners, Network and system monitoring, System Recovery, and RCA (Root Cause Analysis. Worked with LAN/WAN Systems, Active Directory, Intel and Unix Servers, Oracle and SQL databases.",
+      "logo": "./resources/img/wellpoint-logo.svg"
+    },
+    {
+      "company": "TekSystems - WellPoint, Inc",
+      "position": "Network Operations Technician",
+      "location": "Richmond, VA",
+      "startDate": "2006-03-01",
+      "endDate": "2006-03-31",
+      "description": "Manage System outages, Communicate to Business owners, Network and system monitoring, System Recovery, and RCA (Root Cause Analysis. Worked with LAN/WAN Systems, Active Directory, Intel and Unix Servers, Oracle and SQL databases.",
+      "logo": "./resources/img/teksystems-logo.webp"
+    },
+    {
+      "company": "TekSystems - WellPoint, Inc",
+      "position": "Help Desk Analyst",
+      "location": "Richmond, VA",
+      "startDate": "2005-07-01",
+      "endDate": "2006-03-31",
+      "description": "Assist a user base of over 55,000 users with network issues, Windows operating systems, Office software, printing, Mainframe issues, and custom applications. Accomplishments: Help develop new process and play a intricate role in special projects and integrations. Played the role of “Security Liaison” for a team of 27. Assistant team lead for LiveChat support, and help desk team.",
+      "logo": "./resources/img/teksystems-logo.webp"
+    },
+    {
+      "company": "TekSystems",
+      "position": "Short Term Contracts",
+      "location": "Richmond, VA",
+      "startDate": "2005-03-01",
+      "endDate": "2005-05-31",
+      "description": "Completed several road warrior contracts setting up networks, workstations, and telephones.",
+      "logo": "./resources/img/teksystems-logo.webp"
+    },
+    {
+      "company": "New Directions Mortgage Co., Inc",
+      "position": "Information Technology Specialist",
+      "location": "Richmond, VA",
+      "startDate": "2004-05-01",
+      "endDate": "2005-03-01",
+      "description": "Network Administrator: Design a network infrastructure. Build, upgrade and maintain a Microsoft Windows 2003 Server (file server, web server, print server, and login server), install and maintain Active Directory. Maintain over 40 computers: Clean of malicious programs, install and upgrade industry software, administer a file database of over 6000 files, and manage user profiles. Help Desk: Assist a user group of 50+ with network issues, Microsoft product trouble tickets, email troubleshooting, computer best practices training, internet troubleshooting, login issues, and print troubleshooting. Graphic Design: Design advertising collateral, images for television commercials, program manuals, logos, business cards, embroidery graphics, sign/window/banner graphics, software GUI, and web graphics. Web Design: Design individual personnel sites for customer use, a fully functional intranet site, and worked in collaboration for company internet site and online application. Software Development: Headed a team to design proprietary software called Tyro Management and Verum Trax. This included GUI design, user flow, project management, and debugging in VB.net.",
+      "logo": ""
+    },
+    {
+      "company": "RadioShack Corporation",
+      "position": "Sales Manager",
+      "location": "Richmond, VA",
+      "startDate": "2004-01-01",
+      "endDate": "2004-04-30",
+      "description": "Performance management, directing sales, merchandising, people development, recruiting, customer care, scheduling, and information presentation. Meet sales goals, and development goals on a daily basis.",
+      "logo": "./resources/img/radio-shack-1.svg"
+    },
+    {
+      "company": "Wicked Pages Press",
+      "position": "Sales & Marketing / Assistant Web Designer",
+      "location": "Richmond, VA",
+      "startDate": "2003-08-01",
+      "endDate": "2008-07-31",
+      "description": "Introduce new books to local retailers, handle all sales transaction in stores and the web, design and institute advertising, promote authors to: magazines, newspapers, radio stations.",
+      "logo": ""
+    },
+    {
+      "company": "RadioShack Corporation",
+      "position": "Assistant Sales Manager",
+      "location": "Richmond, VA",
+      "startDate": "2002-01-01",
+      "endDate": "2004-01-01",
+      "description": "Be current on all Wireless promotions, do programming of phones, and handle wireless customer technical and billing issues. Handle customer retention for the store. Handle a variety of customer care services on other Radio Shack Products. Manage a 2-3 person team on a daily basis. Ensure that the store is sales ready at all times. Keep the store running on a daily basis.",
+      "logo": "./resources/img/radio-shack-1.svg"
+    },
+    {
+      "company": "United States Navy",
+      "position": "E3 Nuclear Engineering Field",
+      "location": "Great Lakes, IL",
+      "startDate": "2001-12-01",
+      "endDate": "2002-12-31",
+      "description": "Complete basic training; Medical Discharge (dd214 can be provided by request)",
+      "logo": "./resources/img/navy-logo.svg"
+    },
+    {
+      "company": "RadioShack Corporation",
+      "position": "Sales Associate",
+      "location": "Van Nuys, CA",
+      "startDate": "2001-10-01",
+      "endDate": "2001-11-30",
+      "description": "Be current on all Wireless promotions, do programming of phones, and handle wireless customer technical and billing issues. Handle a variety of customer care services on other Radio Shack Products. Ensure that the store was sales ready at all times. Learn to be a sales person.",
+      "logo": "./resources/img/radio-shack-1.svg"
+    },
+    {
+      "company": "Owensboro Health Group",
+      "position": "Data Analyst II",
+      "location": "Virtual",
+      "startDate": "2020-03-27",
+      "endDate": "",
+      "description": "Developed and maintained EPIC and third party data sets using Caboodle, Clarity, and custom databases. Designed with conceptional, logical, and physical data models and executed enterprise ETLs. Deployed and enhanced periodic end-user data visualizations, building automated ETL processes to integrate data from diverse healthcare and vendor systems. Ensured efficient data access and utilization through server administration, user training, and relational database management.",
+      "accomplishments": [
+        "Led initiative to replace PowerBi and successfully implemented a Tableau Server as the enterprise standard for data analytics.",
+        "Collaborated across teams to develop and deploy a custom data collection tool to replace out dated excel data collection workflow.",
+        "Led department initiative to create an enterprise level knowledge base. Successfully implemented Team Foundational Server Wiki with Git and TFS repositories."
+        ],
+      "logo": "./resources/img/omhs-logo.svg"
+    }
+]

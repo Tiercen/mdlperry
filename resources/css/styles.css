@@ -10,7 +10,6 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
     padding: 0.2rem 0.75rem;
-    
     background: fixed;
     background-color: #f5f5f5; /*#f5f5f5;  Eggshell color */
     background-image: 
@@ -167,9 +166,34 @@ body {
     background-color: rgba(0, 0, 0, .1)
   }
 
+  .work-card {
+    background-color: rgba(225, 165, 0, .5);
+    margin-bottom: 1.5em;
+  }
+
+  .accomplishments {
+    list-style-type: disc;
+    list-style-position: inside;
+
+    padding: .5em;
+    margin-left: 1em;
+
+    border: cyan solid 2px;
+  }
+
   .workhist-logo img {
     width: 10vw;
     height: auto;
+  }
+
+  .description-container {
+    max-height: 2.7em; /* Adjust this value to fit the first two lines of text */
+    overflow: hidden;
+    transition: all 2s ease-in-out; /* Adjust timing as needed */
+  }
+
+  .hidden {
+    display: none;
   }
 
   .skills {
@@ -201,5 +225,3 @@ body {
     width: 25rem;
     height: 25rem;
   }
-
-

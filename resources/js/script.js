@@ -28,29 +28,46 @@ fetch('./resources/data/work-history.json')
       const maxHeight = 130; // Adjust based on font size and desired preview length
       const descriptionPreview = work.description.substring(0, work.description.split(/\s+/).slice(0, Math.ceil(maxHeight / 10)).join(' ').length) + '...';
       const description = work.description
-
+    
       workCard.innerHTML = `
         <div class="workhist-logo">${logoHtml}</div>
         <h3>${work.position} - ${work.company}</h3>
         <span><h4>${startYear} to ${endYear}</h4></span>
         <p class="location">Location: ${work.location}</p>
+        <div class="description-container">
+          <p class="description">${description}</p>
+          <ul class="accomplishments"></ul>
+        </div>
         <a href="#" class="description-toggle">Show More</a>
-        <p class="description">${descriptionPreview}</p>
       `;
+
+      const accomplishmentsList = workCard.querySelector('.accomplishments'); // Get the accomplishments list element
+
+      // Check if accomplishments array exists and has elements
+      if (work.accomplishments && work.accomplishments.length > 0) {
+        work.accomplishments.forEach(accomplishment => {
+          const accomplishmentItem = document.createElement('li');
+          accomplishmentItem.textContent = accomplishment;
+          accomplishmentsList.appendChild(accomplishmentItem);
+        });
+      } else {
+        accomplishmentsList.classList.add('hidden'); // if accomplishments is empty then this hides the ul
+      }
 
         // Toggle link click event handler
         const toggleLink = workCard.querySelector('.description-toggle');
+       
         toggleLink.addEventListener('click', (event) => {
           event.preventDefault(); // Prevent default link behavior (navigation)
-
-        if  (toggleLink.textContent === "Show More") {
-          workCard.querySelector('.description').textContent = description;
-          toggleLink.textContent = 'Show Less';
-        } else {
-          workCard.querySelector('.description').textContent = descriptionPreview;
-          toggleLink.textContent = 'Show More';
-        }
-
+          const descriptionContainer = workCard.querySelector('.description-container');
+        
+          if  (toggleLink.textContent === "Show More") {
+            descriptionContainer.style.maxHeight = 'none'; // Remove max-height restriction
+            toggleLink.textContent = 'Show Less';
+          } else {
+            descriptionContainer.style.maxHeight = '2.7em'; // Reset max-height
+            toggleLink.textContent = 'Show More';
+          }
         });
       
       workHistorySection.appendChild(workCard);
