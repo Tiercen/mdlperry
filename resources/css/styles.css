@@ -70,10 +70,17 @@ body {
     margin-bottom: 1em;
     padding: .5em;
     text-align: center;
-
+    color: azure;
     width: 100%;
 
-    background-color: rgba(50, 50, 50, .1);
+    border: red solid 2px;
+    background-color: rgba(50, 50, 50, 1);
+  }
+
+  .pos-fixed {
+    position: sticky;
+    top: 0;
+    z-index: 10;
   }
 
   .bio-title {
@@ -156,7 +163,12 @@ body {
 
           /* Work History Section */
   .work-hist {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content:space-around;
     width: 50vw;
+    height: 100vh;
     flex-shrink: 0;
     padding-right: 1em;
     margin-right: 1em;
