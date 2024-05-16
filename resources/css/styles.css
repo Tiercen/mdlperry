@@ -57,7 +57,7 @@ body {
     height: auto;
 
     display: flex;
-    align-items: flex-start;
+    align-items:flex-start;
 
     font-size: 14px;
 
@@ -131,8 +131,8 @@ body {
   }
   
   .bio-img-con img {
-    width: 25vw;
-    height: 25vw;
+    max-width: 65vh;
+    height: 65vh;
     border-radius: 50%;
     border: green solid 5px;
     object-fit: cover;
