@@ -63,7 +63,7 @@ body {
 
     padding: 1em;
 
-    border: steelblue solid 2px;
+    /* border: steelblue solid 2px; */
   }
   
   .section-title {
@@ -90,7 +90,7 @@ body {
     flex-direction: column;
     align-items: center;
     
-    border: yellow solid 4px;
+    /* border: yellow solid 4px; */
   }
   
   .primary-nav {
@@ -121,7 +121,7 @@ body {
     align-items: center;
     justify-content: center;
     
-    border: green solid 3px;
+    /* border: green solid 3px; */
   }
   
   .bio-img-con img {
@@ -153,6 +153,8 @@ body {
     margin-bottom: 1em;
   }
 
+
+          /* Work History Section */
   .work-hist {
     width: 50vw;
     flex-shrink: 0;
@@ -167,8 +169,38 @@ body {
   }
 
   .work-card {
+    border-radius: 20px;
+    /* padding: 1em; */
     background-color: rgba(225, 165, 0, .5);
     margin-bottom: 1.5em;
+  }
+
+  .workhist-banner {
+    display: flex;
+    background-color: rgba(176, 178, 68, .8);
+    border-radius: 20px;
+    align-items: center;
+    /* justify-content: space-around; */
+  }
+
+  .workhist-loc-time {
+    display: flex;
+ 
+    width: 80%;
+
+    padding: 1em;
+
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+
+  .workhist-time {
+    padding-right: 2em;
+  }
+
+  .workhist-position {
+    text-align: center;
+    padding: .5em 0;
   }
 
   .accomplishments {
@@ -178,24 +210,49 @@ body {
     padding: .5em;
     margin-left: 1em;
 
-    border: cyan solid 2px;
+    /* border: cyan solid 2px; */
   }
 
-  .workhist-logo img {
+  .workhist-logo {
+    display: flex;
     width: 10vw;
+    height: 10vw;
+    align-items: center;
+    justify-content: center;
+
+    border: black solid 2px;
+    border-radius: 20px;
+    background-color: rgb(176, 168, 168);
+  }
+
+  .workhist-img {
+    width: 100%;
     height: auto;
+    
+    padding: 1em;
   }
 
   .description-container {
     max-height: 2.7em; /* Adjust this value to fit the first two lines of text */
     overflow: hidden;
     transition: all 2s ease-in-out; /* Adjust timing as needed */
+
+    padding: 0 1em;
   }
 
+  /* This declaration hides the ul for accomplishments if there are no accomplistments present */
   .hidden {
     display: none;
   }
 
+  .toggle-container {
+    padding: .5em;
+    margin-left: 1.5em;
+  }
+
+      /* END of WORK HISTORY SECTION */
+
+          /* SKILLS SECTION */
   .skills {
     flex: 1;
     display: flex;
@@ -203,20 +260,45 @@ body {
     align-items: center;
     justify-content: flex-start;
 
-    border: blueviolet solid 3px;
+    /* border: blueviolet solid 3px; */
   }
 
   .skill-img-con {
     display: flex;
     flex-wrap: wrap;
+    gap: 1em;
     justify-content: space-around;
+
+    padding: 1em;
   }
 
   .skill-img {
-    width: 10vw;
+    width: 8vw;
   }
 
-  /* interest */
+      /* END OF SKILLS SECTION */
+
+  /* interests */
+
+  .interest-img-con {
+    display: flex;
+    gap: 1em;
+
+    align-items: center;
+    justify-content: center;
+  }
+
+  .interest-card {
+    display: flex;
+    flex-direction: column;
+
+    padding: 1em 0;
+    margin: 1em 0;
+    
+    align-items: center;
+    justify-content: center;
+  }
+
   .interest-img {
     width: 15vw;
   }

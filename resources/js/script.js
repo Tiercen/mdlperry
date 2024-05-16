@@ -17,7 +17,7 @@ fetch('./resources/data/work-history.json')
       // Check if work.logo exists and create image element if it does
       if (work.logo) {
         // Use backticks for template literals to handle dynamic paths
-        logoHtml = `<img src="${work.logo}" alt="${work.company} Logo">`;
+        logoHtml = `<img src="${work.logo}" alt="${work.company} Logo" class="workhist-img">`;
       }
 
       // Extract year from startDate and endDate (handle cases with missing endDate)
@@ -30,15 +30,22 @@ fetch('./resources/data/work-history.json')
       const description = work.description
     
       workCard.innerHTML = `
-        <div class="workhist-logo">${logoHtml}</div>
-        <h3>${work.position} - ${work.company}</h3>
-        <span><h4>${startYear} to ${endYear}</h4></span>
-        <p class="location">Location: ${work.location}</p>
+        <div class="workhist-banner">
+          <div class="workhist-logo">${logoHtml}</div>
+          <div class="workhist-loc-time">
+            <p class="location">Location: ${work.location}</p>
+            <span><h4 class="workhist-time">${startYear} to ${endYear}</h4></span>
+          </div>  
+        </div>
+        
+        <h3 class="workhist-position">${work.position} - ${work.company}</h3>
         <div class="description-container">
           <p class="description">${description}</p>
           <ul class="accomplishments"></ul>
         </div>
-        <a href="#" class="description-toggle">Show More</a>
+        <div class="toggle-container">
+          <a href="#" class="description-toggle">Show More</a>
+        </div>
       `;
 
       const accomplishmentsList = workCard.querySelector('.accomplishments'); // Get the accomplishments list element
