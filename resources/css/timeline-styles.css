@@ -1,0 +1,282 @@
+:root {
+    --primary-color: #3d3555;
+    --timeline-bg-color: #888;
+}
+
+.timeline-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.timeline-wrapper {
+    position: relative;
+    width: 95%;
+    height: 70vh;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    overflow-x: auto;
+    transition: .3s ease;
+
+    touch-action: pan-x; /* Allow horizontal panning */
+    overscroll-behavior: contain; /* Prevent overscrolling */
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    cursor: grab;
+
+    z-index: 0;
+    /* From https://css.glass */
+    background: rgba(225, 224, 230, 0.29);
+    border-radius: 16px;
+    box-shadow: 0 20px 30px rgba(10, 10, 10, 0.4);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 5px solid rgba(81, 33, 159, 0.16);
+
+    
+}
+
+.timeline-wrapper.grabbing {
+    cursor: grabbing;
+}
+
+.timeline {
+    position: absolute;
+    height: .5rem;
+    padding: 0 10rem;
+    /* background-color: var(--timeline-bg-color); */
+    list-style: none;
+
+    background: linear-gradient(#262626, #eaeaea, #262626);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+    --scale: 1;
+
+    display: flex;
+    scroll-snap-align: start;
+    z-index: 2;
+}
+
+.timeline li {
+    position: relative;
+    width: 20rem;
+
+    scroll-snap-align: center;
+}
+
+.timeline li::before,
+.timeline li::after,
+.timeline li .title,
+.data {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(var(--scale));
+    transition: .5s ease;
+    
+}
+
+.timeline li::before {
+    content: "";
+    top: 1.5rem;
+
+    display: inline-block;
+    width: 0.25rem;
+    height: 2.5rem;
+    background-color: var(--timeline-bg-color);
+}
+
+.timeline li:nth-child(even)::before {
+    top: -1.5rem;
+}
+
+.timeline li:hover::before {
+    background-color: var(--primary-color);
+}
+
+.timeline li::after {
+    content: attr(data-date);
+    top: -4.4rem;
+
+    padding: .5rem;
+    border-radius: 10%;
+}
+
+.timeline li:nth-child(odd)::after {
+    top: 4.4rem;
+}
+
+.timeline li:hover::after,
+.timeline li .title {
+    color: var(--primary-color);
+
+    padding: .5rem;
+    border-radius: 10%;
+}
+
+.timeline li .title {
+    top: 4.4rem;
+
+    font: 600 1.1rem 'poppins', sans-serif;
+    white-space: pre; /* Keeps the title on a single line */
+
+    opacity: 0;
+}
+
+.timeline li:nth-child(odd) > .title {
+    top: -4.4rem;
+}
+
+.timeline li:hover .title {
+    opacity: 1;
+}
+
+.data {
+    width: 2rem;
+    height: 2rem;
+    background-color: var(--timeline-bg-color);
+    color: #fff;
+    
+    border-radius: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: .5rem;
+
+    overflow: hidden;
+    touch-action: manipulation;
+    }
+
+.timeline li:hover .data {
+    background-color: var(--primary-color);
+    --scale: 1.2;
+    cursor: pointer;
+    z-index: 200;
+}
+
+.data.show {
+    width: 30vw;
+    height: auto;
+    border-radius: 1rem;
+    padding: 1vw;
+
+    background-image: linear-gradient(45deg, var(--primary-color), rgb(152, 178, 213));
+
+    box-shadow: 0 .1vw .4vw #0004;
+
+    z-index: 100;
+}
+
+.data h3 {
+    text-transform: capitalize;
+    padding-left: 1vw;
+    margin-left: 3.7rem; /* Hides the title when not shown */
+}
+
+.data small {
+    
+    padding-left: 1vw;
+    
+}
+
+.data p {
+    background-color: #fff3;
+    padding: 1vw 1.5vw;
+    border-radius: 1rem;
+    margin-left: 3.7rem; /* Hides the title when not shown */
+    font-size: .9em;
+}
+
+.data.show h3,
+.data.show p {
+    margin-left: 0;
+}
+
+.data .close {
+    align-self: center;
+    background: rgba(225, 224, 230, 0.29);
+    border-radius: 16px;
+    box-shadow: 0 20px 30px rgba(10, 10, 10, 0.4);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 5px solid rgba(81, 33, 159, 0.16);
+
+    padding: .6vw .9vw;
+    border-radius: 2rem;
+
+    font-size: .8em;
+}
+
+    /* styles added for the start and end markers */
+
+.timeline li.fixed {
+    position: relative;
+    width: 2rem; /* Adjust the width as needed */
+}
+
+.timeline li.fixed::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    z-index: 1;
+}
+
+.timeline li.start::before {
+    content: "Start";
+    /* Add additional styles for the start marker */
+}
+
+.timeline li.end::before {
+    content: "End";
+    /* Add additional styles for the end marker */
+}
+
+.timeline li.start::before,
+.timeline li.end::before {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    width: 4rem; /* Adjust as needed */
+    height: 4rem; /* Adjust as needed */
+    border-radius: 1rem;
+    background-color: var(--timeline-bg-color);
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    color: #fff;
+    font-weight: 600;
+}
+.timeline li.start::before {
+    transform: translate(-200%, -50%);
+}
+
+.timeline li.start:hover::before {
+    scale: 1.2;
+    box-shadow: 1rem 1rem 4rem #0004;
+}
+
+.timeline li.end::before {
+    transform: translate(200%, -50%);
+}
+
+.timeline li.end:hover::before {
+    scale: 1.2;
+    box-shadow: 1rem 1rem 4rem #0004;
+}

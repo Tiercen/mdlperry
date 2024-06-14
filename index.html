@@ -3,151 +3,262 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/orbit-racer" type="text/css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <link href="./resources/css/styles.css" type="text/css" rel="stylesheet">
+  <link href="./resources/css/timeline-styles.css" type="text/css" rel="stylesheet">
+  <link href="./resources/css/glassy-button.css" type="text/css" rel="stylesheet">
   <title>Perry - Data Specialist & Full Stack Developer</title>
 </head>
-<body>
+<body  id="Bio">
+    <svg id="hexagonGrid" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <filter id="glow">
+            <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+            <feMerge>
+              <feMergeNode in="coloredBlur"/>
+              <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+          </filter>
+        </defs>
+        <!-- Your hexagons go here -->
+      </svg>
+    <main>
     <div class="head-con">
-        <header class="sub-nav">
-            <nav class="theme-nav">
-                <button class="pro">Professional</button>
-                <button class="per">Personal</button>
-            </nav>
-        </header>
         <section class="hero">
             <div class="left-section">
                 <section class="bio">
                     <h2 class="section-title">Bio</h2>
-                    <p class="bio-overview">I'm a passionate full-stack developer with over 18 years of experience in the IT field, transforming how small businesses leverage data. My journey began in 2005 as a help desk analyst, and through dedication, I've evolved into a data architect, architecting powerful solutions for data management and analysis.</p>
-                    <h4 class="bio-title">Building Bridges with Technology</h4>
-                    <p class="bio-text">I speak the languages of both data (JavaScript, SQL, C#, etc.) and development (APIs, Git, GitHub, etc.), allowing me to bridge the gap between complex technology and real-world business needs.  I bring the power of enterprise-level tools like Tableau and Power BI to small businesses, empowering them to gain insights and make data-driven decisions.</p>
-                    <h4 class="bio-title">A Passion for Problem-Solving</h4>
-                    <p class="bio-text">My love for the outdoors – hiking, camping – translates to my approach to development. Just like navigating a new trail, I relish the challenge of tackling complex problems and finding innovative solutions. Whether you're a small business owner, a content creator, or a budding entrepreneur, I'm here to help you harness the power of data and technology to achieve your goals.</p>
-                    <h4 class="bio-title">Beyond the Code</h4>
-                    <p class="bio-text">When I'm not coding, you might find me exploring the wonders of physics and astronomy, or tinkering with mechanical engineering projects. My curiosity fuels my creativity, allowing me to approach problems from unique angles.</p>
-                    <h4 class="bio-title">Let's Build Something Amazing Together!</h4>
-                    <p class="bio-text">I'm excited to collaborate and bring your vision to life. Explore my portfolio to see how I can help your business thrive in the ever-evolving technological landscape.</p>
+                    <div class="bio-content">
+                        <p class="bio-overview">I'm a passionate full-stack developer with over 18 years of experience in the IT field, transforming how small businesses leverage data. My journey began in 2005 as a help desk analyst, and through dedication, I've evolved into a data architect, architecting powerful solutions for data management and analysis.</p>
+                        <h4 class="bio-title">Building Bridges with Technology</h4>
+                        <p class="bio-text">I speak the languages of both data (JavaScript, SQL, C#, etc.) and development (APIs, Git, GitHub, etc.), allowing me to bridge the gap between complex technology and real-world business needs.  I bring the power of enterprise-level tools like Tableau and Power BI to small businesses, empowering them to gain insights and make data-driven decisions.</p>
+                        <h4 class="bio-title">A Passion for Problem-Solving</h4>
+                        <p class="bio-text">My love for the outdoors – hiking, camping – translates to my approach to development. Just like navigating a new trail, I relish the challenge of tackling complex problems and finding innovative solutions. Whether you're a small business owner, a content creator, or a budding entrepreneur, I'm here to help you harness the power of data and technology to achieve your goals.</p>
+                        <h4 class="bio-title">Beyond the Code</h4>
+                        <p class="bio-text">When I'm not coding, you might find me exploring the wonders of physics and astronomy, or tinkering with mechanical engineering projects. My curiosity fuels my creativity, allowing me to approach problems from unique angles.</p>
+                        <h4 class="bio-title">Let's Build Something Amazing Together!</h4>
+                        <p class="bio-text">I'm excited to collaborate and bring your vision to life. Explore my portfolio to see how I can help your business thrive in the ever-evolving technological landscape.</p>
+                    </div>
                 </section>
             </div>
             <div class="right-section">
                 <nav class="primary-nav">
                     <ul class="nav-list">
-                        <li>Bio</li>
-                        <li>Work Journey</li>
-                        <li>Interests</li>
-                        <li>Life Events</li>
-                        <li>Skills</li>
-                        <li>Locations</li>
-                        <li>Contact Me</li>
+                        <li><a href="#Bio" class="navlink"><button class="nav-btn glassy-button"><span>Bio</span></button></a></li>
+                        <li><a href="#workhistory" class="navlink"><button class="nav-btn glassy-button"><span>Work Journey</span></button></a></li>
+                        <li><a href="#skills" class="navlink"><button class="nav-btn glassy-button"><span>Skills</span></button></a></li>
+                        <li><a href="#interests" class="navlink"><button class="nav-btn glassy-button"><span>Interests</span></button></a></li>
+                        <li><a href="#lifeEvents" class="navlink"><button class="nav-btn glassy-button"><span>Life Events</span></button></a></li>
+                        <li><a href="#locations" class="navlink"><button class="nav-btn glassy-button"><span>Locations</span></button></a></li>
+                        <li><a href="#contactMe" class="navlink"><button class="nav-btn glassy-button"><span>Contact</span></button></a></li>
                     </ul>
                 </nav>
+                <div class="secondary-nav-container all-off">
+                    <nav class="secondary-nav">
+                        <ul class="nav-list-secondary">
+                            <li><a href="#Bio" class="navlink"><button class="nav-btn glassy-button"><span>Bio</span></button></a></li>
+                            <li><a href="#workhistory" class="navlink"><button class="nav-btn glassy-button"><span>Work Journey</span></button></a></li>
+                            <li><a href="#skills" class="navlink"><button class="nav-btn glassy-button"><span>Skills</span></button></a></li>
+                            <li><a href="#interests" class="navlink"><button class="nav-btn glassy-button"><span>Interests</span></button></a></li>
+                            <li><a href="#lifeEvents" class="navlink"><button class="nav-btn glassy-button"><span>Life Events</span></button></a></li>
+                            <li><a href="#locations" class="navlink"><button class="nav-btn glassy-button"><span>Locations</span></button></a></li>
+                            <li><a href="#contactMe" class="navlink"><button class="nav-btn glassy-button"><span>Contact</span></button></a></li>
+                        </ul>
+                    </nav>
+                </div>
+               
                 <div class="bio-img-con">
                     <picture class="professional">
-                        <img class="bio-pic" src="./resources/img/MDLPBio.png" alt="This is a profile picture of Perry" role="banner">
+                        <img class="bio-pic" src="./resources/img/MDLP-Bio-nobg.png" alt="This is a profile picture of Perry" role="banner">
                     </picture>
                     <picture class="personal">
                         <img class="bio-pic" src="./resources/img/Tiercen82ai.JPG" alt="This is a digital avatar of Tiercen82" role="banner">
                     </picture>
                 </div>
-            </div>
-        </section>
-        <h1 class="intro-line">Empowering Businesses with Enterprise-Grade Solutions</h1>
-        <hr>
-    </div>
-    
-    
-    
-    <main>
-        <div class="content-con">
-            <section class="work-hist">
-                <h2 class="section-title pos-fixed">Professional Journey</h2>
-                <div id="work-history"></div>
-            </section>
-            <section class="skills">
-                <h2 class="section-title">Skills</h2>
-                <div class="skill-img-con">
-                    <img src="./resources/img/CSS.svg" alt="Skill: CSS" class="skill-img">
-                    <img src="./resources/img/Git.svg" alt="Skill: Git" class="skill-img">
-                    <img src="./resources/img/Bash-Light.svg" alt="Skill: Bash - Light Mode" class="skill-img professional">
-                    <img src="./resources/img/Github-Light.svg" alt="Skill: GitHub - Light Mode" class="skill-img professional">
-                    <img src="./resources/img/HTML.svg" alt="Skill: HTML" class="skill-img">
-                    <img src="./resources/img/JavaScript.svg" alt="Skill: JavaScript" class="skill-img">
-                    <img src="./resources/img/Markdown-Light.svg" alt="Skill: Markdown - Light Mode" class="skill-img professional">
-                    <img src="./resources/img/NodeJS-Light.svg" alt="Skill: NodeJS - Light Mode" class="skill-img professional">
-                    <img src="./resources/img/Powershell-Light.svg" alt="Skill: PowerShell - Light Mode" class="skill-img professional">
-                    <img src="./resources/img/React-Light.svg" alt="Skill: React - Light Mode" class="skill-img professional">
-                    <img src="./resources/img/Regex-Light.svg" alt="Skill: RegEx - Light Mode" class="skill-img professional">
-                    <img src="./resources/img/vscode.svg" alt="Skill: VSCode" class="skill-img">
-                    <img src="./resources/img/tableau.svg" alt="Skill: Tableau" class="skill-img">
-                    <img src="./resources/img/VSCode-Light.svg" alt="Skill: VSCode - Light Mode" class="skill-img professional">
-                    <img src="./resources/img/Bash-Dark.svg" alt="Skill: Bash - Dark Mode" class="skill-img personal">
-                    <img src="./resources/img/Github-Dark.svg" alt="Skill: GitHub - Dark Mode" class="skill-img personal">
-                    <img src="./resources/img/Markdown-Dark.svg" alt="Skill: Markdown - Dark Mode" class="skill-img personal">
-                    <img src="./resources/img/NodeJS-Dark.svg" alt="Skill: NodeJS - Dark Mode" class="skill-img personal">
-                    <img src="./resources/img/Powershell-Dark.svg" alt="Skill: PowerShell - Dark Mode" class="skill-img personal">
-                    <img src="./resources/img/React-Dark.svg" alt="Skill: React - Dark Mode" class="skill-img personal">
-                    <img src="./resources/img/Regex-Dark.svg" alt="Skill: RegEx - Dark Mode" class="skill-img personal">
-                    <img src="./resources/img/VSCode-Dark.svg" alt="Skill: VSCode - Dark Mode" class="skill-img personal">
+                <div class="name">
+                    <p class="pro-name">Perry</p>
+                    <p class="per-name">Tiercen82</p>
+                    <div class="hex-input">
+                        <p class="input-label">Select Hexagon Size: </p>
+                        <input type="number" id="hexagonSizeInput" value="25">
+                    </div>
                 </div>
-            </section>
-        </div>
-        <section class="interests">
-            <h2 class="section-title">Interests & Hobbies</h2>
-            <div class="interest-img-con">
-                <div class="interest-card">
-                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/6/67/No_Man%27s_Sky.jpg/220px-No_Man%27s_Sky.jpg" alt="Box art for the video game No Man's Sky" class="interest-img">
-                    <a href="https://www.nomanssky.com/" target="_blank" class="interest-cap">Video Game:  No Man's Sky</a>
-                </div>
-                <div class="interest-card">
-                    <img src="https://a.storyblok.com/f/239842/1920x1080/cf68dd0b18/filters_quality-50-_new1080.jpg/m/1920x1080/filters:quality(50)" alt="Box art for the video game Nightingale" class="interest-img">
-                    <a href="https://playnightingale.com/" target="_blank" class="interest-cap">Video Game:  Nightingale</a>
-                </div>
-                <div class="interest-card">
-                    <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co4l0t.jpg" alt="Box art for the video game Planet Crafter" class="interest-img">
-                    <a href="https://store.steampowered.com/app/1284190/The_Planet_Crafter/" target="_blank" class="interest-cap">Video Game:  Planet Crafter</a>
-                </div>
-                <div class="interest-card">
-                    <img src="https://www.physicstutoronline.co.uk/wp-content/uploads/2019/05/physics1.jpg" alt="A graphic that says physics" class="interest-img">
-                    <a href="https://en.wikipedia.org/wiki/Physics" target="_blank" class="interest-cap">Science: Physics</a>
-                </div>
-                <div class="interest-card">
-                    <img src="https://i0.wp.com/www.sciencenews.org/wp-content/uploads/2020/10/100220_MT_astro-music_feat.jpg?fit=1028%2C579&ssl=1" alt="Picture of the pillars of creation" class="interest-img">
-                    <a href="https://www.nasa.gov/universe/nasas-webb-takes-star-filled-portrait-of-pillars-of-creation/" target="_blank" class="interest-cap">Astronomy: - Pillars of Creation</a>
-                </div>
-                <div class="interest-card">
-                    <img src="https://media.licdn.com/dms/image/D4D12AQH5aV2QDnhS1w/article-cover_image-shrink_600_2000/0/1680545782413?e=2147483647&v=beta&t=6Cpn6by0Atlp22HCt5Ntrxr7D_5sSNL1HwoIavLW8yY" alt="An artistic image of mechanical gears on a blue background" class="interest-img">
-                    <a href="https://en.wikipedia.org/wiki/Mechanical_engineering" target="_blank" class="interest-cap">Science: Mechanical Engineering</a>
-                </div>
-            </div>
-        </section>
-        <section class="personal-hist">
-            <h2 class="section-title">Personal Journey</h2>
-            <div class="timeline">
-                <ol id="life-events">
-
-                </ol>
+                <header class="sub-nav">
+                    <nav class="theme-nav">
+                        <button class="pro glassy-button"><span>Professional</span></button>
+                        <button class="per glassy-button"><span>Personal</span></button>
+                    </nav>
+                </header>
             </div>
         </section>
         
-        <section class="locations">
-            <h2 class="section-title">Locations</h2>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49921.017127523344!2d-86.51318365682192!3d38.55534913027984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886ea6dfe5bd0349%3A0xd0adc8c98acb3431!2sPaoli%2C%20IN%2047454!5e0!3m2!1sen!2sus!4v1715180302107!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
-            <h3 class="loc">Paoli, IN</h3>
-            <a href="https://paoli.in.gov/" target="_blank" class="location-link">Learn More</a>
+    </div>
+    <div class="intro-con">
+        <h1 class="intro-line">Empowering Businesses with Enterprise-Grade Solutions</h1>
+    </div>    
+    
+    <div class="content-con">
+        <section id="workhistory" class="work-container">
+            <h2 class="section-title pos-fixed">Professional Journey</h2>
+            <div class="work-hist">
+                <div id="work-history"></div>
+            </div>
         </section>
-        <section class="contact-me">
-            <h2 class="section-title">Contact Me</h2>
-            <a href="https://twitter.com/MDperry82" target="_blank" class="contact-link"><img src="./resources/img/x.svg" alt="Link to Twitter Account" class="contact-img"></a>
-            <a href="mailto:tiercen@gmail.com?subject=I%20visited%20your%20site" class="contact-link"><img src="./resources/img/gmail.svg" alt="Gmail Icon Dark" class="contact-img"></a>
-            <a href="https://www.facebook.com/david.perry.92" target="_blank' class="contact-link"><img src="./resources/img/facebook.svg" alt="Facebook / META Icon" class="contact-img"></a>
-            <a href="https://www.linkedin.com/in/perrydavid-in/" target="_blank' class="contact-link"><img src="./resources/img/linkedIn.svg" alt="LinkedIn Icon" class="contact-img"></a>
-            <a href="https://www.instagram.com/tiercen.82/" target="_blank' class="contact-link"><img src="./resources/img/Instagram.svg" alt="Instagram Icon" class="contact-img"></a>
+        <section id="skills" class="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="skill-img-con">
+                <div class="progress" style="--i:95;--clr:rgba(61, 53, 85, 1)">
+                    <img src="./resources/img/CSS.svg" alt="Skill: CSS" class="skill-img">
+                    <h4>95<span>%</span></h4>
+                </div>
+                <div class="progress" style="--i:99;--clr:rgba(61, 53, 85, 1)">
+                    <img src="./resources/img/Git.svg" alt="Skill: Git" class="skill-img">
+                    <h4>99<span>%</span></h4>
+                </div>
+                <div class="progress" style="--i:80;--clr:rgba(61, 53, 85, 1)">
+                    <img src="./resources/img/Bash-Light.svg" alt="Skill: Bash - Light Mode" class="skill-img professional">
+                    <h4>80<span>%</span></h4>
+                </div>
+                <div class="progress" style="--i:95;--clr:rgba(61, 53, 85, 1)">
+                    <img src="./resources/img/Github-Light.svg" alt="Skill: GitHub - Light Mode" class="skill-img professional">
+                    <h4>90<span>%</span></h4>
+                </div>
+                <div class="progress" style="--i:100;--clr:rgba(61, 53, 85, 1)">
+                    <img src="./resources/img/HTML.svg" alt="Skill: HTML" class="skill-img">
+                    <h4>100<span>%</span></h4>
+                </div>
+                <div class="progress" style="--i:65;--clr:rgba(61, 53, 85, 1)">
+                    <img src="./resources/img/JavaScript.svg" alt="Skill: JavaScript" class="skill-img">
+                    <h4>65<span>%</span></h4>
+                </div>
+                <div class="progress" style="--i:100;--clr:rgba(61, 53, 85, 1)">
+                    <img src="./resources/img/Markdown-Light.svg" alt="Skill: Markdown - Light Mode" class="skill-img professional">
+                    <h4>100<span>%</span></h4>
+                </div>
+                <div class="progress less" style="--i:25;--clr:rgba(61, 53, 85, 1)">
+                    <img src="./resources/img/NodeJS-Light.svg" alt="Skill: NodeJS - Light Mode" class="skill-img professional">
+                    <h4>25<span>%</span></h4>
+                </div>
+                <div class="progress" style="--i:100;--clr:rgba(61, 53, 85, 1)">
+                    <img src="./resources/img/Powershell-Light.svg" alt="Skill: PowerShell - Light Mode" class="skill-img professional">
+                    <h4>100<span>%</span></h4>
+                </div>
+                <div class="progress less" style="--i:10;--clr:rgba(61, 53, 85, 1)">
+                    <img src="./resources/img/React-Light.svg" alt="Skill: React - Light Mode" class="skill-img professional">
+                    <h4>10<span>%</span></h4>
+                </div>
+                <div class="progress" style="--i:88;--clr:rgba(61, 53, 85, 1)">
+                    <img src="./resources/img/Regex-Light.svg" alt="Skill: RegEx - Light Mode" class="skill-img professional">
+                    <h4>88<span>%</span></h4>
+                </div>
+                <div class="progress" style="--i:99;--clr:rgba(61, 53, 85, 1)">
+                    <img src="./resources/img/vscode.svg" alt="Skill: VSCode" class="skill-img">
+                    <h4>99<span>%</span></h4>
+                </div>
+                <div class="progress" style="--i:100;--clr:rgba(61, 53, 85, 1)">
+                    <img src="./resources/img/tableau.svg" alt="Skill: Tableau" class="skill-img">
+                    <h4>100<span>%</span></h4>
+                </div>
+                <div class="progress" style="--i:92;--clr:rgba(61, 53, 85, 1)">
+                    <img src="./resources/img/VSCode-Light.svg" alt="Skill: VSCode - Light Mode" class="skill-img professional">
+                    <h4>92<span>%</span></h4>
+                </div>
+                
+                <img src="./resources/img/Bash-Dark.svg" alt="Skill: Bash - Dark Mode" class="skill-img personal">
+                <img src="./resources/img/Github-Dark.svg" alt="Skill: GitHub - Dark Mode" class="skill-img personal">
+                <img src="./resources/img/Markdown-Dark.svg" alt="Skill: Markdown - Dark Mode" class="skill-img personal">
+                <img src="./resources/img/NodeJS-Dark.svg" alt="Skill: NodeJS - Dark Mode" class="skill-img personal">
+                <img src="./resources/img/Powershell-Dark.svg" alt="Skill: PowerShell - Dark Mode" class="skill-img personal">
+                <img src="./resources/img/React-Dark.svg" alt="Skill: React - Dark Mode" class="skill-img personal">
+                <img src="./resources/img/Regex-Dark.svg" alt="Skill: RegEx - Dark Mode" class="skill-img personal">
+                <img src="./resources/img/VSCode-Dark.svg" alt="Skill: VSCode - Dark Mode" class="skill-img personal">
+            </div>
         </section>
+    </div>
+    <section id="interests" class="interests">
+        <h2 class="section-title">Interests & Hobbies</h2>
+        <div class="interest-img-con">
+            <div class="interest-card">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/6/67/No_Man%27s_Sky.jpg/220px-No_Man%27s_Sky.jpg" alt="Box art for the video game No Man's Sky" class="interest-img">
+                <a href="https://www.nomanssky.com/" target="_blank" class="interest-cap">Video Game:  No Man's Sky</a>
+            </div>
+            <div class="interest-card">
+                <img src="https://a.storyblok.com/f/239842/1920x1080/cf68dd0b18/filters_quality-50-_new1080.jpg/m/1920x1080/filters:quality(50)" alt="Box art for the video game Nightingale" class="interest-img">
+                <a href="https://playnightingale.com/" target="_blank" class="interest-cap">Video Game:  Nightingale</a>
+            </div>
+            <div class="interest-card">
+                <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co4l0t.jpg" alt="Box art for the video game Planet Crafter" class="interest-img">
+                <a href="https://store.steampowered.com/app/1284190/The_Planet_Crafter/" target="_blank" class="interest-cap">Video Game:  Planet Crafter</a>
+            </div>
+            <div class="interest-card">
+                <img src="./resources/img/physics.jpg" alt="An AI generated graphic that says physics" class="interest-img">
+                <a href="https://en.wikipedia.org/wiki/Physics" target="_blank" class="interest-cap">Science: Physics</a>
+            </div>
+            <div class="interest-card">
+                <img src="./resources/img/astronomy.jpg" alt="AI generated image of space" class="interest-img">
+                <a href="https://www.nasa.gov/universe/nasas-webb-takes-star-filled-portrait-of-pillars-of-creation/" target="_blank" class="interest-cap">Science: Astronomy</a>
+            </div>
+            <div class="interest-card">
+                <img src="./resources/img/mechanical-engineering.jpg" alt="An AI generated image of mechanical engineering" class="interest-img">
+                <a href="https://en.wikipedia.org/wiki/Mechanical_engineering" target="_blank" class="interest-cap">Science: Mechanical Engineering</a>
+            </div>
+            <div class="interest-card">
+                <img src="https://static.displate.com/857x1200/displate/2019-07-05/1a2a328ed2993130087fe27d6cc83bd0_d8a8c08c0c2c73502221efd65cfebc81.jpg" alt="An official Movie poster for Star Wars: A New Hope" class="interest-img">
+                <a href="https://en.wikipedia.org/wiki/Star_Wars_(film)" target="_blank" class="interest-cap">Movie: Star Wars: A New Hope</a>
+            </div>
+            <div class="interest-card">
+                <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1641960/header.jpg?t=1716572826" alt="Game Art from the Forever Skies Website" class="interest-img">
+                <a href="https://store.steampowered.com/app/1641960/Forever_Skies/" target="_blank" class="interest-cap">Video Game: Forever Skies</a>
+            </div>
+            <div class="interest-card">
+                <img src="./resources/img/backyard.png" alt="Picture of sunset from Perry's backyard" class="interest-img">
+                <a href="#" target="_blank" class="interest-cap">Nature: Sunset over my backyard</a>
+            </div>
+        </div>
+    </section>
+    <section id="lifeEvents" class="personal-hist">
+        <h2 class="section-title">Life Events</h2>
+        <div class="timeline-wrapper">          
+            <ul class="timeline">
+                <li class="fixed start" data-time="Start"></li>
+                <!-- Content added via JavaScript -->
+                <li class="fixed end" data-time="End"></li>
+            </ul>
+        </div>
+    </section>
+    
+    <section id="locations" class="locations">
+        <h2 class="section-title">Locations</h2>
+        <div class="locations-con">
+            <div class="map-card">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49921.017127523344!2d-86.51318365682192!3d38.55534913027984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886ea6dfe5bd0349%3A0xd0adc8c98acb3431!2sPaoli%2C%20IN%2047454!5e0!3m2!1sen!2sus!4v1715180302107!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+                <h3 class="loc">Paoli, IN</h3>
+                <a href="https://paoli.in.gov/" target="_blank" class="location-link">Learn More</a>
+            </div>
+            <div class="image-gallery">
+                <img src="./resources/img/Paoli-IN-CourtHouse.jpg" alt="Picture of the Orange County Court House Paoli, IN">
+            </div>
+        </div>
+    </section>
+    <section id="contactMe" class="contact-me">
+        <h2 class="section-title">Contact Me</h2>
+        <a href="https://twitter.com/MDperry82" target="_blank" class="contact-link"><img src="./resources/img/x.svg" alt="Link to Twitter Account" class="contact-img"></a>
+        <a href="mailto:tiercen@gmail.com?subject=I%20visited%20your%20site" class="contact-link"><img src="./resources/img/gmail.svg" alt="Gmail Icon Dark" class="contact-img"></a>
+        <a href="https://www.facebook.com/david.perry.92" target="_blank' class="contact-link"><img src="./resources/img/facebook.svg" alt="Facebook / META Icon" class="contact-img"></a>
+        <a href="https://www.linkedin.com/in/perrydavid-in/" target="_blank' class="contact-link"><img src="./resources/img/linkedIn.svg" alt="LinkedIn Icon" class="contact-img"></a>
+        <a href="https://www.instagram.com/tiercen.82/" target="_blank' class="contact-link"><img src="./resources/img/Instagram.svg" alt="Instagram Icon" class="contact-img"></a>
+    </section>
     </main>
     <footer class="licensing">
         <p class="footer-text">Icons by <a target="_blank" href="https://icons8.com">Icons8</a> & <a href="https://www.svgrepo.com/" target="_blank">svgrepo</a></p>
     </footer>
     <!-- Load JavaScripts -->
     <script src="./resources/js/script.js"></script>
+    <script src="./resources/js/timeline.js"></script>
+    <script src="./resources/js/glassy-button.js"></script>
+    
 </body>
 </html>
