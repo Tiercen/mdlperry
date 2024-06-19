@@ -205,3 +205,5 @@ hexagonSizeInput.addEventListener('change', function() {
   hexagonSize = newHexagonSize; // Update hexagonSize directly
   generateBackgroundPattern();
 });
+
+window.addEventListener('resize', generateBackgroundPattern); // This listener checks for the browser resize.  If the window changes size the background will re-generate.
