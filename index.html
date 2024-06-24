@@ -7,6 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
   <link href="./resources/css/styles.css" type="text/css" rel="stylesheet">
   <link href="./resources/css/timeline-styles.css" type="text/css" rel="stylesheet">
   <link href="./resources/css/glassy-button.css" type="text/css" rel="stylesheet">
@@ -27,6 +28,18 @@
       </svg>
     <main>
     <div class="head-con">
+        <nav class="primary-nav">
+            <ul class="nav-list">
+                <li><a href="#Bio" class="navlink"><button class="nav-btn glassy-button"><span>Bio</span></button></a></li>
+                <li><a href="#workhistory" class="navlink"><button class="nav-btn glassy-button"><span>Work Journey</span></button></a></li>
+                <li><a href="#skills" class="navlink"><button class="nav-btn glassy-button"><span>Skills</span></button></a></li>
+                <li><a href="#portfolio" class="navlink"><button class="nav-btn glassy-button"><span>Portfolio</span></button></a></li>
+                <li><a href="#interests" class="navlink"><button class="nav-btn glassy-button"><span>Interests</span></button></a></li>
+                <li><a href="#lifeEvents" class="navlink"><button class="nav-btn glassy-button"><span>Personal Journey</span></button></a></li>
+                <li><a href="#locations" class="navlink"><button class="nav-btn glassy-button"><span>Locations</span></button></a></li>
+                <li><a href="#contactMe" class="navlink"><button class="nav-btn glassy-button"><span>Contact</span></button></a></li>
+            </ul>
+        </nav>
         <section class="hero">
             <div class="left-section">
                 <section class="bio">
@@ -45,25 +58,16 @@
                 </section>
             </div>
             <div class="right-section">
-                <nav class="primary-nav">
-                    <ul class="nav-list">
-                        <!-- <li><a href="#Bio" class="navlink"><button class="nav-btn glassy-button"><span>Bio</span></button></a></li> -->
-                        <li><a href="#workhistory" class="navlink"><button class="nav-btn glassy-button"><span>Work Journey</span></button></a></li>
-                        <li><a href="#skills" class="navlink"><button class="nav-btn glassy-button"><span>Skills</span></button></a></li>
-                        <li><a href="#interests" class="navlink"><button class="nav-btn glassy-button"><span>Interests</span></button></a></li>
-                        <li><a href="#lifeEvents" class="navlink"><button class="nav-btn glassy-button"><span>Life Events</span></button></a></li>
-                        <li><a href="#locations" class="navlink"><button class="nav-btn glassy-button"><span>Locations</span></button></a></li>
-                        <li><a href="#contactMe" class="navlink"><button class="nav-btn glassy-button"><span>Contact</span></button></a></li>
-                    </ul>
-                </nav>
+                
                 <div class="secondary-nav-container all-off">
                     <nav class="secondary-nav">
                         <ul class="nav-list-secondary">
                             <li><a href="#Bio" class="navlink"><button class="nav-btn glassy-button"><span>Bio</span></button></a></li>
                             <li><a href="#workhistory" class="navlink"><button class="nav-btn glassy-button"><span>Work Journey</span></button></a></li>
                             <li><a href="#skills" class="navlink"><button class="nav-btn glassy-button"><span>Skills</span></button></a></li>
+                            <li><a href="#portfolio" class="navlink"><button class="nav-btn glassy-button"><span>Portfolio</span></button></a></li>
                             <li><a href="#interests" class="navlink"><button class="nav-btn glassy-button"><span>Interests</span></button></a></li>
-                            <li><a href="#lifeEvents" class="navlink"><button class="nav-btn glassy-button"><span>Life Events</span></button></a></li>
+                            <li><a href="#lifeEvents" class="navlink"><button class="nav-btn glassy-button"><span>Personal Journey</span></button></a></li>
                             <li><a href="#locations" class="navlink"><button class="nav-btn glassy-button"><span>Locations</span></button></a></li>
                             <li><a href="#contactMe" class="navlink"><button class="nav-btn glassy-button"><span>Contact</span></button></a></li>
                         </ul>
@@ -97,7 +101,7 @@
         
     </div>
     <div class="intro-con">
-        <h1 class="intro-line">Empowering Businesses with Enterprise-Grade Solutions</h1>
+        <h1 class="intro-line">Empowering Small Businesses with Enterprise-Grade Solutions</h1>
     </div>    
     
     <div class="content-con">
@@ -178,6 +182,9 @@
             </div>
         </section>
     </div>
+    <section id="portfolio" class="portfolio">
+        <h2 class="section-title">Portfolio</h2>
+    </section>
     <section id="interests" class="interests">
         <h2 class="section-title">Interests & Hobbies</h2>
         <div class="interest-img-con">
@@ -220,7 +227,7 @@
         </div>
     </section>
     <section id="lifeEvents" class="personal-hist">
-        <h2 class="section-title">Life Events</h2>
+        <h2 class="section-title">Personal Journey</h2>
         <div class="timeline-wrapper">          
             <ul class="timeline">
                 <li class="fixed start" data-time="Start"></li>
@@ -234,35 +241,25 @@
         <h2 class="section-title">Locations</h2>
         <div class="locations-con">
             <div class="image-gallery">
-                <div class="loc-img-con">
+                
                     <img src="./resources/img/Paoli-IN-CourtHouse.jpg" alt="Picture of the Orange County Court House Paoli, IN">
-                </div>
-                <div class="loc-img-con">
+            
                     <img src="./resources/img/paoli-rainbow.jpg" alt="This is a rainbow picture in my backyard">
-                </div>
-                <div class="loc-img-con">
+                
                     <img src="./resources/img/lost-river-hostile-1.jpg" alt="This is a picture of a hut at Lost River Hostile">
-                </div>
-                <div class="loc-img-con spacer">
-                    
-                </div>
-                <div class="map-card">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49921.017127523344!2d-86.51318365682192!3d38.55534913027984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886ea6dfe5bd0349%3A0xd0adc8c98acb3431!2sPaoli%2C%20IN%2047454!5e0!3m2!1sen!2sus!4v1715180302107!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
-                    <h3 class="loc">Paoli, IN</h3>
-                    <a href="https://paoli.in.gov/" target="_blank" class="location-link">Learn More</a>
-                </div>
-                <div class="loc-img-con spacer">
-                    
-                </div>
-                <div class="loc-img-con">
+                
                     <img src="./resources/img/monroe-lake.jpg" alt="This is a picture of Monroe Lake.">
-                </div>
-                <div class="loc-img-con">
+                
                     <img src="./resources/img/my-backyard-1.jpg" alt="Foggy picture of my backyard">
-                </div>
-                <div class="loc-img-con">
+                
                     <img src="./resources/img/my-backyard-2.jpg" alt="Winter Picture of my backyard">
-                </div>
+
+                    <div class="map-card">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49921.017127523344!2d-86.51318365682192!3d38.55534913027984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886ea6dfe5bd0349%3A0xd0adc8c98acb3431!2sPaoli%2C%20IN%2047454!5e0!3m2!1sen!2sus!4v1715180302107!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+                        <h3 class="loc">Paoli, IN</h3>
+                        <a href="https://paoli.in.gov/" target="_blank" class="location-link">Learn More</a>
+                    </div>
+                
             </div>
         </div>
     </section>
